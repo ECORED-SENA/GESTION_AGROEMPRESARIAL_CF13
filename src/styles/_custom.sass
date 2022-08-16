@@ -1,14 +1,14 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: rotation 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 5%
+    right: 3%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 60%
+    right: 70%
 
 
 @keyframes float1
@@ -17,3 +17,127 @@
 
   100%
     transform: translateY(0px)
+
+.rotacion 
+  animation: rotation 8s infinite linear
+
+@keyframes rotation
+  from 
+    transform: rotate(0deg)
+  to 
+    transform: rotate(359deg)
+
+.fondo1
+  background-color: rgba(206, 211, 113, 0.46)
+
+.fondo2
+  background-color: #F4F6DD !important
+
+.fondo3
+  background-color: rgba(243, 228, 232, 0.99) !important
+
+.fondo4
+  background-color: rgba(158, 162, 87, 0.75)
+
+.fondotitulo
+  background-image: url('../assets/curso/tema1/fondotitulo.png')
+  background-position: center 
+  background-repeat: no-repeat
+  background-size: cover
+
+.fondo5
+  background-image: url('../assets/curso/tema1/fondo1.jpg')
+  background-position: top
+  background-repeat: no-repeat
+  background-size: 100%
+
+.fondolineatiempo 
+  .tarjeta--gris
+    background-color: #CEDDED !important
+
+.ampliar
+  margin-left: -50px
+  margin-right: -50px
+  
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+  background-color:rgba(226, 226, 226, 0.5) !important
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #DDEDCB !important
+
+.colortextocontenido
+  color: #B30F48 !important
+
+.fa-angle-right:before
+    content: "\f105"
+    color: #A3314F
+
+.sizecrd
+  margin-bottom: 20px 
+  @media (min-width: 1401px)
+    height: 280px !important
+    width: 300px
+  @media (max-width: 1400px)
+    height: 300px
+    width: 270px
+  @media (max-width: 1200px)
+    height: 280px
+    width: 350px 
+  @media (max-width: 991px)
+    height: 310px
+    width: 250px 
+  @media (max-width: 768px)
+    height: 290px
+    width: 100%
+
+.sizecrd1
+  margin-bottom: 20px 
+  @media (min-width: 1401px)
+    height: 380px !important
+    width: 300px
+  @media (max-width: 1400px)
+    height: 420px !important
+    width: 270px
+  @media (max-width: 1200px)
+    height: 380px !important
+    width: 350px 
+  @media (max-width: 991px)
+    height: 440px !important
+    width: 250px 
+  @media (max-width: 768px)
+    height: 330px !important
+    width: 100%
+  @media (max-width: 500px)
+    height: 420px !important
+    width: 100%
+
+.sombracrd
+  box-shadow: 3px 3px 10px #7070707a !important
+
+.fondoavatar
+  background-color: #B0C0D2 !important
+
+.fondoavatar2
+  background-color: #EAECC0 !important
+
+.fa-chevron-right:before
+  content: "\f054"
+  color: #707BA3
+
+.fa-chevron-left:before
+  content: "\f053"
+  color: #707BA3
+
+.carousel-indicators .active
+  background-color: #FFB500 !important
+
+.altocarrusel
+  height: 200px !important
+  @media (max-width: 576px)
+    height: 380px !important
+  @media (max-width: 768px)
+    height: 310px !important
+
+.nomostrar
+  @media (max-width: 576px)
+    display: none

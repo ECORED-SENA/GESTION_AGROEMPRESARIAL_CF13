@@ -27,6 +27,36 @@
   to 
     transform: rotate(359deg)
 
+///////// Card hover
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body  
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: rgba(255, 247, 230, 0.88) 
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+  @media (max-width: 500px)  
+    .crd_hover_txt--body
+      h4 
+        font-size: 1em
+      p
+        font-size: 0.8em
+
 .fondo1
   background-color: rgba(206, 211, 113, 0.46)
 
@@ -54,6 +84,75 @@
 .fondolineatiempo 
   .tarjeta--gris
     background-color: #CEDDED !important
+
+.fondo6
+  background-color: #7B7E43 !important 
+
+.fondo7
+  background-color: #F6F6F6
+
+.fondo8
+  background-color:#FFFCF3 !important
+
+.fondo9
+  background-image: url('../assets/curso/tema2/fondo1.jpg')
+  background-position: top
+  background-repeat: no-repeat
+  background-size: 100%
+
+.fondo10
+  background-color:#FFF !important
+
+.fondo11
+  background-image: url('../assets/curso/tema2/fondo2.svg')
+  background-position: right
+  background-repeat: no-repeat
+  background-size: cover
+  @media (max-width: 500px)  
+    background-position: left
+
+.fondo12
+  background-color: #C9C9C9 !important
+
+.fondo13
+  background-color: #A3314F !important
+
+.fondo14
+  background-color: #E1E4A8 !important
+
+.fondo15
+  background-color: #EAEDC3 !important
+
+.fondo16
+  background-color: #FFDFE7 !important
+
+.fondo17
+  background-color: #DFDFDF !important
+
+.fondo18
+  background-color: #E3E3E3 !important
+
+.fondo19
+  background-color: #F7F8E9 !important
+
+.tabs-a__tab
+  background-color: #e8e8e8 
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #A3314F !important
+  color: #fff
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before
+  background-color: #A3314F
+
+.bordetabla
+  border-right: 2px solid #AFAFAF !important
+
+.bordeabajo
+  border-bottom: 2px solid #AFAFAF !important
+
+.sinborde
+  border: none !important
 
 .ampliar
   margin-left: -50px
@@ -141,3 +240,17 @@
 .nomostrar
   @media (max-width: 576px)
     display: none
+
+.anchocol
+  width: 33.3% !important
+
+.anchocol1
+  width: 50% !important
+
+table caption
+  margin-top: 5px
+  color: #12263F
+  font-size: 14px
+  background-color: #F6F6F6
+  padding: 0.75em 1.5em
+  font-weight: 500

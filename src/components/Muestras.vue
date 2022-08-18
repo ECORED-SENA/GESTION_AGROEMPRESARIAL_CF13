@@ -1134,9 +1134,7 @@ div
             span.visually-hidden Previous
           button.carousel-control-next(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide='next')
             span.carousel-control-next-icon(aria-hidden='true')
-            span.visually-hidden Next        
-
-
+            span.visually-hidden Next
 
   Separador
 

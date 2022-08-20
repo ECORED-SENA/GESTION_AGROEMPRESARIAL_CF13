@@ -6,15 +6,15 @@
       .titulo-principal__numero
         span.text-white 4
       h1 Seguimiento a procesos de certificación
-    p La obtención de la certificación para los procesos que se llevan a cabo dentro de la unidad productiva, independientemente del estándar escogido, implica un gran compromiso que se debe respetar en todo momento por parte del productor.
-    .bloque-texto-g.fondo6.p-3.p-sm-4.p-md-5
+    p(data-aos="fade-down-left") La obtención de la certificación para los procesos que se llevan a cabo dentro de la unidad productiva, independientemente del estándar escogido, implica un gran compromiso que se debe respetar en todo momento por parte del productor.
+    .bloque-texto-g.fondo6.p-3.p-sm-4.p-md-5(data-aos="fade-down-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/imagen1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
         p Debido al nivel de exigencia que demanda conseguir una certificación, es importante desarrollar mecanismos internos que permitan a la empresa agropecuaria mantener los estándares y exigencias, para evitar que en determinado momento se pueda llegar a perder este beneficio.
-    p.my-5 Para que esto sea posible es necesario diseñar estrategias enfocadas en:
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
+    p.my-5(data-aos="fade-down-left") Para que esto sea posible es necesario diseñar estrategias enfocadas en:
+    SlyderF(data-aos="fade-down-right").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
       .tarjeta-avatar.sizecrd
         img(src='@/assets/curso/tema4/avatar1.svg')
         .tarjeta.fondo20.sombracrd
@@ -51,11 +51,11 @@
           .text-dark.p-4
             p.text-center La implementación de las correspondientes medidas correctivas, como parte de un sistema de control interno. 
     separador
-    #t_4_1.titulo-segundo.color-acento-contenido
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 4.1 Herramientas de seguimiento
-    p Se entiende por herramientas de seguimiento a todos aquellos instrumentos procedimentales o materiales que, en el marco de la certificación, favorecen llevar un control de procesos, actividades, mejoras, compromisos, capacitación, archivo documental, entre otras.
-    p.mb-5 Los mecanismos más empleados en el seguimiento a los procesos de certificación son:
-    .tarjeta.fondo20.tarjeta--azul.p-4.mb-5
+    p(data-aos="fade-down-left") Se entiende por herramientas de seguimiento a todos aquellos instrumentos procedimentales o materiales que, en el marco de la certificación, favorecen llevar un control de procesos, actividades, mejoras, compromisos, capacitación, archivo documental, entre otras.
+    p.mb-5(data-aos="fade-down-right") Los mecanismos más empleados en el seguimiento a los procesos de certificación son:
+    .tarjeta.fondo20.tarjeta--azul.p-4.mb-5(data-aos="fade-down-left")
       SlyderA(tipo="b")
         .row
           .col-xxl-4.col-xl-5.col-lg-6.col-md-12.col-sm-12.col-12.mb-4.mb-md-0
@@ -98,11 +98,11 @@
           .col-xxl-7.col-xl-6.col-lg-5.col-md-12.col-sm-12.col-12
             img.mt-3.ms-lg-5(src='@/assets/curso/tema4/slider6.png')
     separador
-    #t_4_2.titulo-segundo.color-acento-contenido
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-down-left")
       h2 4.2 Verificación de actividades
-    p En muchas ocasiones no basta con la implementación de los mecanismos de control en las unidades productivas, sino que es necesario desarrollar alternativas que permitan verificar que, efectivamente, se están realizando las actividades previstas en los manuales de funciones, en los protocolos y manuales de procedimientos.     
-    p.mb-5 Para efectuar de manera exitosa la verificación de las actividades, son recomendables:
-    TabsA.color-acento-botones.mb-5
+    p(data-aos="fade-down-right") En muchas ocasiones no basta con la implementación de los mecanismos de control en las unidades productivas, sino que es necesario desarrollar alternativas que permitan verificar que, efectivamente, se están realizando las actividades previstas en los manuales de funciones, en los protocolos y manuales de procedimientos.     
+    p.mb-5(data-aos="fade-down-left") Para efectuar de manera exitosa la verificación de las actividades, son recomendables:
+    TabsA.color-acento-botones.mb-5(data-aos="fade-down-right")
       .tarjeta.fondo19.p-4(titulo="Mecanismos de control interno")
         .row.justify-content-center.align-items-center
           .col-xl-2.col-md-2.col-sm-2.col-4.mb-3
@@ -125,16 +125,16 @@
             h4 Diligenciamiento de registros y trazabilidad
             p Toda la información que se genera al interior de la unidad productiva se debe recopilar en los registros establecidos, para tener control sobre entradas y salidas, así como contar con una fuente de verificación de las actividades realizadas. Por medio de los registros, igualmente, es posible obtener la trazabilidad y revisar la evolución de los productos de la unidad productiva durante cada una de sus etapas.
     separador
-    #t_4_3.titulo-segundo.color-acento-contenido
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 4.3 Sanciones
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down-left")
       .col-xxl-5.col-xl-5.col-lg-5.col-md-12.mb-4
         p La certificación de unidades productivas agropecuarias es bastante exigente y es un proceso que demanda gran cantidad de tiempo y recursos para que se lleve a feliz término; por ello, es importante implementar todo lo que sea posible para mantenerla y evitar que sea revocada por el organismo competente.
         .cajon.color-acento-contenido.px-4.pt-3.pb-1.mb-4.fondo14
           p Si bien las sanciones son situaciones no deseadas, es importante conocer cuáles son las causales por las que se puede suspender o retirar una certificación, indistintamente del estándar de certificación escogido.
       .col-xxl-7.col-xl-7.col-lg-7.col-md-12.mb-4
         img(src='@/assets/curso/tema4/imagen2.jpg')
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down-right")
       .col-xxl-4.col-xl-4.col-lg-4.col-md-12.mb-4
         img(src='@/assets/curso/tema4/imagen3.jpg')   
       .col-xxl-8.col-xl-8.col-lg-8.col-md-12.mb-4
@@ -161,13 +161,13 @@
           li 
             i.fas.fa-angle-right
             | El cliente certificado ha pedido, voluntariamente, una suspensión.
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down-left")
       .col-xxl-10.col-xl-10.col-lg-10.col-md-12.col-sm-12.col-12
         .cajon.color-acento-contenido.px-4.pt-3.pb-1.mb-4.fondo16
           p Durante la suspensión, la certificación se invalida de forma temporal, pero se retoma cuando se resuelve el motivo que la originó.
-    p.mb-4.mt-3 Por otro lado, se puede presentar el retiro de la certificación y es común que la causa esté en los mismos motivos por los que se da una suspensión; entre los más comunes están:
+    p.mb-4.mt-3(data-aos="fade-down-right") Por otro lado, se puede presentar el retiro de la certificación y es común que la causa esté en los mismos motivos por los que se da una suspensión; entre los más comunes están:
 
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="fade")
       .col-xxl-10.col-xl-10.col-lg-10.col-md-12
         .row.justify-content-center
           .col-md-6.col-lg.mb-5.mb-lg-0

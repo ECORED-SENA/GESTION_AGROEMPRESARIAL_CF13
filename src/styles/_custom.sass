@@ -141,6 +141,42 @@
 .fondo21
   background-color: #FFD265 !important
 
+.fondo22
+  background-color: rgba(206, 211, 113, 0.9)
+
+.fondo23
+  background-image: url('../assets/curso/tema5/fondo1.jpg')
+  background-position: top
+  background-repeat: no-repeat
+  background-size: 100%
+
+.fondo24
+  background-image: url('../assets/curso/tema5/fondo2.jpg')
+  background-position: top
+  background-repeat: no-repeat
+  background-size: 100%
+
+.fondo25
+  background-image: url('../assets/curso/tema1/fondoslider.jpg')
+  background-position: top
+  background-repeat: no-repeat
+  background-size: cover
+
+.fondotitulo2
+  background-image: url('../assets/curso/tema5/fondotitulo.svg')
+  background-position: right
+  background-repeat: no-repeat
+  background-size: cover
+
+.fondotitulo3
+  background-image: url('../assets/curso/tema5/fondotitulo2.svg')
+  background-position: right
+  background-repeat: no-repeat
+  background-size: cover
+
+.carousel-control-next .carousel-control-prev
+  width: 5% !important
+
 .slyder-a__bullets__item
   background-color: rgba(154, 154, 154, 0.35) !important
 
@@ -227,6 +263,27 @@
     height: 420px !important
     width: 100%
 
+.sizecrd2
+  margin-bottom: 20px 
+  @media (min-width: 1401px)
+    height: 280px !important
+    width: 300px
+  @media (max-width: 1400px)
+    height: 300px
+    width: 270px
+  @media (max-width: 1200px)
+    height: 280px
+    width: 330px 
+  @media (max-width: 991px)
+    height: 340px
+    width: 230px 
+  @media (max-width: 768px)
+    height: 290px
+    width: 100%
+  @media (max-width: 400px)
+    height: 310px
+    width: 100%
+
 .sombracrd
   box-shadow: 3px 3px 10px #7070707a !important
 
@@ -248,14 +305,21 @@
   background-color: #FFB500 !important
 
 .altocarrusel
-  height: 200px !important
-  @media (max-width: 576px)
-    height: 380px !important
-  @media (max-width: 768px)
-    height: 310px !important
+  height: 220px
+  @media (max-width: 1200px) and (min-width: 992px)
+    height: 250px 
+  @media (max-width: 576px) and (min-width: 400px)
+    height: 260px
+  @media (max-width: 768px) and (min-width: 577px)
+    height: 250px 
+  @media (max-width: 991px) and (min-width: 769px)
+    height: 230px
+  @media (max-width: 399px)
+    height: 350px
+
 
 .nomostrar
-  @media (max-width: 576px)
+  @media (max-width: 768px)
     display: none
 
 .anchocol
@@ -271,3 +335,8 @@ table caption
   background-color: #F6F6F6
   padding: 0.75em 1.5em
   font-weight: 500
+
+.vinetacolor
+  .fa-angle-right:before
+    content: "\f105"
+    color: #12263F

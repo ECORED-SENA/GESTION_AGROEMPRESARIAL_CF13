@@ -6,14 +6,14 @@
       .titulo-principal__numero
         span.text-white 2
       h1 Entidades certificadoras
-    .bloque-texto-g.fondo6.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.fondo6.p-3.p-sm-4.p-md-5(data-aos="fade-down-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/imagen1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
         p El auge de los procesos de certificación ha influido en la proliferación de entidades que se dedican a prestar este tipo de servicios en el mundo entero y a través de las cuales miles de empresas han conseguido adoptar estándares internacionales para el desarrollo de sus procesos productivos, con lo cual han logrado incursionar en mercados de diversas latitudes y acceder a los beneficios que ofrecen las economías más exigentes que existen en la actualidad.
-    p.my-5 Para que una empresa adquiera la distinción de entidad certificadora requiere:
-    .row.justify-content-center
+    p.my-5(data-aos="fade-down-left") Para que una empresa adquiera la distinción de entidad certificadora requiere:
+    .row.justify-content-center(data-aos="fade-down-right")
       .col-xxl-8.col-xl-8.col-lg-8.col-md-12.col-sm-12.col-12.mb-4
         AcordionA(tipo="b" clase-tarjeta="tarjeta fondo3")
           .row.align-items-center(titulo="Cumplimiento")
@@ -43,21 +43,21 @@
               p.mb-0 Incluso, existen casos en los que algunas entidades normalizadoras también pueden ser entidades certificadoras.
       .col-xxl-4.col-xl-4.col-lg-4.col-md-12.col-sm-12.col-12.mb-4
         img(src='@/assets/curso/tema2/imagen2.jpg')
-    p.mb-5 Se invita a reafirmar la comprensión de la estructura de acción de las organizaciones acreditadoras, normalizadoras y su relación con las entidades candidatas en proceso de certificación, analizando el esquema que se muestra a continuación:
-    .titulo-sexto.color-acento-botones
+    p.mb-5(data-aos="fade-down-right") Se invita a reafirmar la comprensión de la estructura de acción de las organizaciones acreditadoras, normalizadoras y su relación con las entidades candidatas en proceso de certificación, analizando el esquema que se muestra a continuación:
+    .titulo-sexto.color-acento-botones(data-aos="fade")
       h5 Figura 1. 
       span Esquema del proceso de normalización/acreditación/certificación
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down-left")
       .col-xxl-7.col-xl-7.col-lg-7.col-md-12.col-sm-12.col-12.mb-4
         img(src='@/assets/curso/tema2/figura1.svg')
         p.fondo7.p-3.mb-0.my-3 Nota. Tomada de Miranda (s. f.).
       .col-xxl-5.col-xl-5.col-lg-5.col-md-12.col-sm-12.col-12.mb-4
         img(src='@/assets/curso/tema2/figura2.svg')
     separador
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.1 Tipos de entidades certificadoras
-    p.mb-5 En primer lugar, vale la pena recordar que el ONAC (Organismo Nacional de Acreditación) es el encargado de acreditar a las entidades certificadoras en Colombia, por lo que sus alcances, actuaciones y procedimientos están debidamente sustentados ante la autoridad competente.
-    .row.justify-content-center
+    p.mb-5(data-aos="fade-down-right") En primer lugar, vale la pena recordar que el ONAC (Organismo Nacional de Acreditación) es el encargado de acreditar a las entidades certificadoras en Colombia, por lo que sus alcances, actuaciones y procedimientos están debidamente sustentados ante la autoridad competente.
+    .row.justify-content-center(data-aos="fade-down-left")
       .col-xxl-5.col-xl-5.col-lg-5.col-md-12.col-sm-12.col-12.mb-4
         .cajon.color-acento-contenido.p-4.mb-4.fondo8
           p Las entidades certificadoras se pueden clasificar de acuerdo con el tipo de certificación que emiten, la naturaleza de la certificación o el ámbito de aplicación. Sin embargo, para analizar lo relacionado con las certificaciones que se dan en el ámbito agropecuario se diferencian dos grandes grupos: primero, las que implementan las normas ISO (Internacional Organization for Standardization) y, en segundo lugar, las que implementan certificaciones netamente del ámbito agropecuario.
@@ -65,8 +65,8 @@
         img(src='@/assets/curso/tema2/imagen3.jpg')
     .row.justify-content-center.ampliar.px-5.fondo9.align-items-center
       .col-xxl-12
-        p.mb-5 En el grupo de entidades correspondiente a las certificaciones netamente del ámbito agropecuario, el Ministerio de Agricultura y Desarrollo Rural ha reconocido como entidades certificadoras para la producción ecológica (Resolución 0187/2006) y autorizadas para administrar el uso del Sello de Alimento Ecológico del Ministerio de Agricultura y Desarrollo Rural, a las siguientes entidades:
-        .row.justify-content-center
+        p.mb-5(data-aos="fade-up-left") En el grupo de entidades correspondiente a las certificaciones netamente del ámbito agropecuario, el Ministerio de Agricultura y Desarrollo Rural ha reconocido como entidades certificadoras para la producción ecológica (Resolución 0187/2006) y autorizadas para administrar el uso del Sello de Alimento Ecológico del Ministerio de Agricultura y Desarrollo Rural, a las siguientes entidades:
+        .row.justify-content-center(data-aos="fade-up-right")
           .col-xxl-10.col-xl-10.col-lg-10.col-md-12
             .titulo-sexto.color-acento-contenido
               h5 Tabla 1. 
@@ -102,7 +102,7 @@
                   td.anchocol.bordetabla.text-center Mayacert S.A.S
                   td.anchocol.bordetabla.text-center 18-CPR-001
                   td.anchocol.text-center Resolución del Ministerio de Agricultura y Desarrollo Rural 23 de 2019.
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-up-left")
           .col-xxl-5.col-xl-5.col-lg-5.col-md-12.col-sm-12.col-12.mb-4
             h4.text-bold.fondo11.py-4.mb-0.text-white.pe-5.ps-3 Certificaciones públicas en Colombia
             p Además de las certificadoras anteriormente analizadas, en Colombia existen otro tipo de certificaciones que son de carácter público las cuales están a cargo del Instituto Colombiano Agropecuario como entidad certificadora. Dentro de estas las más reconocidas son la certificación en BPA (Buenas Prácticas Agrícolas), BPG (Buenas Prácticas Ganaderas), Buenas Prácticas Acuícolas y Granjas Avícolas Bioseguras. 
@@ -110,16 +110,16 @@
             img(src='@/assets/curso/tema2/imagen4.jpg')
 
         separador
-        #t_2_2.titulo-segundo.color-acento-contenido
+        #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade")
           h2 2.2	Competencia y rango de acción
-        p Cada una de las entidades certificadoras tiene un alcance diferente, dependiendo de su naturaleza y del renglón de la economía en el cual se desempeñe. Así las cosas, existen entidades certificadoras especializadas en procesos primarios, en procesos de transformación, en manufactura, en estándares ISO, en la producción ecológica o en la producción orgánica.
-        p.mb-5 En la siguiente tabla se presentan algunos organismos de certificación existentes y los alcances de la acreditación que ofrecen:
+        p(data-aos="fade-up-left") Cada una de las entidades certificadoras tiene un alcance diferente, dependiendo de su naturaleza y del renglón de la economía en el cual se desempeñe. Así las cosas, existen entidades certificadoras especializadas en procesos primarios, en procesos de transformación, en manufactura, en estándares ISO, en la producción ecológica o en la producción orgánica.
+        p.mb-5(data-aos="fade-up-right") En la siguiente tabla se presentan algunos organismos de certificación existentes y los alcances de la acreditación que ofrecen:
         .row.justify-content-center
           .col-xxl-10.col-xl-10.col-lg-10.col-md-12
             .titulo-sexto.color-acento-contenido
               h5 Tabla 2. 
               span Alcance de las empresas certificadoras en Colombia
-            .tabla-b.color-acento-contenido.mb-5
+            .tabla-b.color-acento-contenido.mb-5(data-aos="fade")
               table
                 caption Nota. Adaptada del Ministerio de Agricultura y Desarrollo Rural (2022).
                 tr

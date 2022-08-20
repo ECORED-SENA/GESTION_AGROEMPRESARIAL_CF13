@@ -221,132 +221,144 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Centro Nacional de Investigaciones en Café. (2007). Certificación de fincas de producción de café orgánico. ',
+      link: 'https://www.cenicafe.org/es/publications/avt0363.pdf',
+    },
+    {
+      referencia:
+        'Centros Regionales de Educación Superior. (2021). Pasos para la certificación Global G.A.P. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://cerescolombia-cert.com/wp-content/uploads/2021/10/3-1-8_ES_Pasos_a_seguir_certificacion_GLOBALGAP_Inf.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Certificaciones Certhia. (2019). Decisión de certificación y emisión de certificado.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.certhia.cl/wp-content/uploads/2019/10/P-17-Decisi%C3%B3n-de-Certificaci%C3%B3n-e-emisi%C3%B3n-de-certificaci%C3%B3n.pdf',
     },
     {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      referencia: 'Global G.A.P. (2022). Lista de verificación módulo Nurture.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.globalgap.org/.content/.galleries/documents/181112_NURTURE_Inspection-Checklist_FV_V11_2_protected_es.xlsx',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Global G.A.P. (2022). Guía para la inspección y certificación Global G.A.P. Spring.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.globalgap.org/.content/.galleries/documents/SPRING_guia_es.pdf',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Global STD Certificación. (2022). Causas de suspensiones y retiros.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://www.globalstd.com/causas-de-suspensiones-y-retiros-de-certificado/',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Instituto Colombiano Agropecuario - ICA. (2017). Resolución 30021 de 2017. Por medio de la cual se establecen los requisitos para la certificación en buenas prácticas agrícolas en producción primaria y vegetales y otras especies para consumo humano.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.ica.gov.co/getattachment/9d8fe0fa-66d2-4feb-9513-cbba30dc4844/2017R30021.aspx',
+    },
+    {
+      referencia:
+        'Kiwa BCS. (2022). Solicitud de certificación orgánica (Ley de Producción Orgánica).',
+      link:
+        'https://www.kiwa.com/globalassets/latam/rspo-certificacion/aplicacion-para-lpo.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Agricultura y Desarrollo Rural. (2022). Lista de certificadoras de productos ecológicos.',
+      link:
+        'https://www.minagricultura.gov.co/tramites-servicios/Documents/Lista_de_Certificadoras_de_Productos_Ecologicos_040219.pdf',
+    },
+    {
+      referencia:
+        'Miranda F., Chamorro A., y Rubio S. (s. f.). Clarificando el concepto de certificación: el caso español.',
+      link:
+        'http://merkado.unex.es/operaciones/descargas/Certificacio%CC%81n%20en%20Espan%CC%83a.pdf',
+    },
+    {
+      referencia:
+        'Organismo Nacional de Acreditación. (2022). ¿Qué es el Organismo Nacional de Acreditación? ONAC.',
+      link: 'https://onac.org.co/acerca-de-onac/',
+    },
+    {
+      referencia:
+        'Organismo Nacional de Acreditación. (2022). Directorio de acreditados. ONAC.',
+      link: 'https://onac.org.co/directorio-de-acreditados/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Concesión de aguas',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'permiso para la explotación de un recurso hídrico de una fuente natural expedido por la autoridad competente.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Diagrama de flujo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'representación gráfica de la manera como se dan los procesos al interior de la unidad productiva.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Estándar de certificación',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'documento oficial que sirve como referente para evaluar y certificar la unidad productiva.',
     },
     {
-      termino: '<em>Áectores</em>',
-      significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+      termino: 'ONAC',
+      significado: 'Organismo Nacional de Acreditación.',
     },
     {
-      termino: 'Moda',
+      termino: 'Organismo normalizador',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'organismo que implementan o regulan normas o especificaciones que definen esquemas de manejo en determinados aspectos.',
     },
   ],
   complementario: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Solicitud',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Kiwa BCS. (2022). Solicitud de certificación orgánica (Ley de Producción Orgánica).',
+      tipo: 'Documento',
+      link:
+        'https://www.kiwa.com/globalassets/latam/rspo-certificacion/aplicacion-para-lpo.pdf',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Entidades certificadoras',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Organismo Nacional de Acreditación. (2022). ¿Qué es el Organismo Nacional del Acreditación? ONAC.',
+      tipo: 'Página web',
+      link: 'https://onac.org.co/acerca-de-onac/',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      tema: 'Entidades certificadoras',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Organismo Nacional de Acreditación. (2022). Directorio de acreditados. ONAC. ',
+      tipo: 'Página web',
+      link: 'https://onac.org.co/directorio-de-acreditados/',
+    },
+    {
+      tema: 'Parámetros técnicos',
+      referencia:
+        'Instituto Colombiano Agropecuario - ICA. (2017). Resolución 30021 de 2017. Por medio de la cual se establecen los requisitos para la certificación en buenas prácticas agrícolas en producción primaria y vegetales y otras especies para consumo humano.',
+      tipo: 'Documento',
+      link:
+        'https://www.ica.gov.co/getattachment/9d8fe0fa-66d2-4feb-9513-cbba30dc4844/2017R30021.aspx',
+    },
+    {
+      tema: 'Seguimiento a procesos de certificación',
+      referencia:
+        'Global G.A.P. (2022). GLOBAL G.A.P. una marca registrada y un conjunto de normas para las buenas prácticas agrícolas.',
+      tipo: 'Documento',
+      link:
+        'https://www.globalgap.org/.content/.galleries/documents/181112_NURTURE_Inspection-Checklist_FV_V11_2_protected_es.xlsx',
+    },
+    {
+      tema: 'Seguimiento a procesos de certificación',
+      referencia: 'Global G.A.P. (2022). Tesco Nurture Module.',
+      tipo: 'Documento',
+      link:
+        'https://www.globalgap.org/.content/.galleries/documents/181112_NURTURE_Inspection-Checklist_FV_V11_2_protected_es.xlsx',
     },
   ],
   creditos: {
@@ -359,10 +371,31 @@ export default {
     ],
     contenidoInstruccional: [
       {
+        nombre: 'Carlos Andrés Sánchez Suárez',
+        cargo: 'Experto temático',
+        centro: 'Centro Agropecuario La Granja - Espinal Tolima.',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora metodológica',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+      },
+      {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Regional Distrito Capital - Centro de Diseño y Metrología.',
       },
     ],
     desarrolloProducto: [
@@ -373,46 +406,60 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Soporte organizacional',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guión audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
-        cargo: 'Diseño web',
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Locución',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Miguel Guerrero Gutiérrez',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jorge Enrique Haylock Calderín',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ernesto Navarro Jaimes',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Erika Viviana Sandoval Rojas',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Oleg Litvin',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
@@ -420,25 +467,4 @@ export default {
       },
     ],
   },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }

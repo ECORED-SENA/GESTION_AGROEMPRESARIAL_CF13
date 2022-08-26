@@ -166,7 +166,7 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.2',
+            numero: '5.2',
             titulo: 'Elaboración de reportes e informes',
             hash: 't_5_2',
           },
@@ -405,30 +405,30 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      {
+      /*{
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Revisión de guión audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
+      },*/
       {
         nombre: 'María Carolina Tamayo López',
         cargo: 'Locución',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      {
+      /*{
         nombre: 'Miguel Guerrero Gutiérrez',
         cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
+      },*/
       {
         nombre: 'Jorge Enrique Haylock Calderín',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      {
+      /*{
         nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Validación Ilustración',
         centro:
@@ -457,7 +457,7 @@ export default {
         cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
+      },*/
     ],
     gestoresRepositorio: [
       {

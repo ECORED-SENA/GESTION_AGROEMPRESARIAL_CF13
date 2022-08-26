@@ -45,7 +45,7 @@
         img(src='@/assets/curso/tema2/imagen2.jpg')
     p.mb-5(data-aos="fade-down-right") Se invita a reafirmar la comprensión de la estructura de acción de las organizaciones acreditadoras, normalizadoras y su relación con las entidades candidatas en proceso de certificación, analizando el esquema que se muestra a continuación:
     .titulo-sexto.color-acento-botones(data-aos="fade")
-      h5 Figura 1. 
+      h5 Figura 2. 
       span Esquema del proceso de normalización/acreditación/certificación
     .row.justify-content-center(data-aos="fade-down-left")
       .col-xxl-7.col-xl-7.col-lg-7.col-md-12.col-sm-12.col-12.mb-4
@@ -184,7 +184,7 @@
                   td.anchocol Global G.A.P.
                 tr
                   td.anchocol.bordetabla.text-center Instituto Colombiano de Normas Técnicas.
-                  td.anchocol.text-center Global G.A.P.
+                  td.anchocol Global G.A.P.
 </template>
 
 <script>

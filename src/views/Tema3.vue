@@ -139,18 +139,18 @@
       .col-xxl-6.col-xl-6.col-lg-6.col-md-12.colsm-12.col-12.mb-4.mb-md-0
         img(src="@/assets/curso/tema3/imagen4.jpg")
       .col-xxl-6.col-xl-6.col-lg-6.col-md-12.colsm-12.col-12.mb-4
-        LineaTiempoD.color-secundario.fondolineatiempo
-          p(numero="8" titulo="Documentación aspectos de higiene") Registros para la evaluación de riesgos, procedimientos documentados para su implementación, registro de las capacitaciones al personal en este aspecto.
+        LineaTiempoD.color-secundario.fondolineatiempo.margenlineatiempo
+          p.ms-2(numero="8" titulo="Documentación aspectos de higiene") Registros para la evaluación de riesgos, procedimientos documentados para su implementación, registro de las capacitaciones al personal en este aspecto.
           
-          p(numero="9" titulo="Documentación seguridad y salud en el trabajo") Registros de actividades implementadas para el cumplimiento de exigencias en seguridad y salud en el trabajo, lo cual implica capacitaciones en primeros auxilios, servicios básicos, acceso al agua y áreas de descanso, entre otros aspectos.
+          p.ms-2(numero="9" titulo="Documentación seguridad y salud en el trabajo") Registros de actividades implementadas para el cumplimiento de exigencias en seguridad y salud en el trabajo, lo cual implica capacitaciones en primeros auxilios, servicios básicos, acceso al agua y áreas de descanso, entre otros aspectos.
           
-          p(numero="10" titulo="Documentación de actividades para la protección ambiental") Registros sobre actividades desarrolladas para la protección del ambiente (programas de gestión ambiental, identificación de impactos ambientales, disposición de residuos e implementación de protocolos para su manejo).  
+          p.ms-2(numero="10" titulo="Documentación de actividades para la protección ambiental") Registros sobre actividades desarrolladas para la protección del ambiente (programas de gestión ambiental, identificación de impactos ambientales, disposición de residuos e implementación de protocolos para su manejo).  
           
-          p(numero="11" titulo="Trazabilidad") Documentación del recorrido del producto registrado hacia atrás. La información de la cosecha deberá poder vincular un lote de venta con los registros de producción o con las granjas de los productores específicos, en el caso de las certificaciones colectivas.
+          p.ms-2(numero="11" titulo="Trazabilidad") Documentación del recorrido del producto registrado hacia atrás. La información de la cosecha deberá poder vincular un lote de venta con los registros de producción o con las granjas de los productores específicos, en el caso de las certificaciones colectivas.
 
-          p(numero="12" titulo="Sanidad") Registro de la procedencia del material animal o vegetal empleado en la unidad productiva, asegurando que cumple con los requisitos sanitarios establecidos por la autoridad correspondiente.  
+          p.ms-2(numero="12" titulo="Sanidad") Registro de la procedencia del material animal o vegetal empleado en la unidad productiva, asegurando que cumple con los requisitos sanitarios establecidos por la autoridad correspondiente.  
           
-          p(numero="13" titulo="Uso de insumos agropecuarios") Documentación sobre insumos agropecuarios empleados, teniendo especial cuidado de que estos no sean de uso restringido o tengan algún tipo de veto por parte de la autoridad sanitaria o la normativa internacional.
+          p.ms-2(numero="13" titulo="Uso de insumos agropecuarios") Documentación sobre insumos agropecuarios empleados, teniendo especial cuidado de que estos no sean de uso restringido o tengan algún tipo de veto por parte de la autoridad sanitaria o la normativa internacional.
     .row.justify-content-center.mt-5(data-aos="fade-up-right")
       .col-xxl-10.col-xl-10.col-lg-10.col-md-12.col-sm-12.col-12.mb-4
         .cajon.color-acento-contenido.px-4.pt-3.pb-1.mb-4.fondo16

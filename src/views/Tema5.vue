@@ -43,11 +43,11 @@
         tr
           <th rowspan="3">Estimación de beneficios económicos.</th>
           td.anchocol2.bordetabla.text-center Producción por hectárea año.
-          td.anchocol2.bordetabla.text-center Toneladas de producto / hectárea / año.
+          td.anchocol2.bordetabla.text-center Toneladas de producto/hectárea/año.
           td.anchocol2.text-center Registros de producción.
         tr.fondo10
           td.anchocol2.bordetabla.text-center Ingresos anuales.
-          td.anchocol2.bordetabla.text-center Millones de pesos / año.
+          td.anchocol2.bordetabla.text-center Millones de pesos/año.
           td.anchocol2.text-center Facturas de venta.
         tr
           td.anchocol2.bordetabla.text-center Costos de producción.
@@ -69,20 +69,20 @@
         tr
           <th rowspan="2">Valoración de los beneficios en la calidad de vida de los trabajadores.</th>
           td.anchocol2.bordetabla.text-center Programas de bienestar para el trabajador implementados.
-          td.anchocol2.bordetabla.text-center Número de programas de bienestar para el trabajador / año.
+          td.anchocol2.bordetabla.text-center Número de programas de bienestar para el trabajador/año.
           td.anchocol2.text-center Protocolo de programa de bienestar para el trabajador
         tr.fondo10
           td.anchocol2.bordetabla.text-center Número de capacitaciones en seguridad y salud en el trabajo realizadas en el año.
           td.anchocol2.bordetabla.text-center Número de capacitaciones en seguridad y salud en el trabajo realizadas/año.
-          td.anchocol2.text-center Registro de capacitaciones en seguridad y salud en el trabajo – registro fotográfico.
+          td.anchocol2.text-center Registro de capacitaciones en seguridad y salud en el trabajo - registro fotográfico.
         tr.fondo7
           <th rowspan="2">Habituación a las normas de certificación.</th>
           td.anchocol2.bordetabla.text-center Porcentaje de no conformidades encontradas en procesos de preauditoría.
-          td.anchocol2.bordetabla.text-center Número de no conformidades/número de ítems evaluados × 100.
+          td.anchocol2.bordetabla.text-center Número de no conformidades/número de ítems evaluados x 100.
           td.anchocol2.text-center Registros de preauditoría y auditoría.
         tr.fondo7
           td.anchocol2.bordetabla.text-center Diligenciamiento de registros conforme a la normatividad.
-          td.anchocol2.bordetabla.text-center Registros diligenciados / registros establecidos en protocolos.
+          td.anchocol2.bordetabla.text-center Registros diligenciados/registros establecidos en protocolos.
           td.anchocol2.text-center Registros de preauditoría y auditoría.
 
     .row.justify-content-center(data-aos="fade-right")
@@ -105,6 +105,7 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-xxl-8.col-xl-8.col-lg-8.col-md-12.mb-4
         p La información que se comparte en el reporte generalmente tiene utilidad al interior de la empresa y se desarrolla sobre sucesos puntuales. Los reportes generalmente son de tipo ejecutivo, es decir, manejan cifras y datos precisos sobre alguna situación en particular.
+        p Para la elaboración de los reportes es necesario tener en cuenta:
         AcordionA(tipo="b" clase-tarjeta="tarjeta fondo3")
           .row.align-items-center(titulo="Fuente de información")
             .col-md-12.mb-4.mb-md-0.mb-lg-0

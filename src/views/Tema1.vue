@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    //- Muestras
+    //--Muestras
     .titulo-principal.color-acento-contenido(data-aos="fade")
       .titulo-principal__numero
         span.text-white 1
-      h1 Fases del proceso de certificación
+      h1 Fases del proceso de certif<span style="margin-left: 1px;">i</span>cación
     p(data-aos="fade-down") La certificación de unidades productivas agropecuarias es un proceso que se da de manera secuencial, en el cual es necesario seguir algunos procedimientos establecidos que dependen, principalmente, de la clase de certificación, de lo que se pretenda conseguir con ella y del sistema productivo en el que se esté implementando.
     .row.justify-content-center(data-aos="fade-up")
       .col-xxl-6.col-xl-6.col-lg-6.col-md-12.col-sm-12.col-12
@@ -145,7 +145,11 @@
         .tarjeta.fondoavatar.sombracrd
           .text-dark.p-4
             p.text-center Permiso de uso de aguas o radicado de solicitud (Decreto 3930 de 2010 del Ministerio de Ambiente).
+    p.mt-5 En el caso de la certificación orgánica, en el documento de solicitud y dependiendo de la certificadora, se debe responder un cuestionario que, por lo general, aborda los siguientes temas: 
     .row.justify-content-center(data-aos="fade-up")
+      .titulo-sexto.color-acento-botones.ms-4(data-aos="fade")
+        h5 Figura 1. 
+        span Generalidades de consideración para solicitud de proceso de certificación
       .col-xxl-5.col-xl-5.col-lg-5.col-md-12.col-sm-12.col-12.mb-4
         img(src='@/assets/curso/tema1/figura1.svg')
       .col-xxl-7.col-xl-7.col-lg-7.col-md-12.col-sm-12.col-12.mb-4
@@ -432,7 +436,7 @@
         p.fondo4.p-4 Las personas encargadas el proceso de evaluación cuentan con la idoneidad, experiencia y criterio suficientes para emitir un concepto sobre el cumplimiento de los requisitos de la certificación solicitada, e, igualmente, hacer las recomendaciones que se consideren pertinentes. 
       .col-xxl-6.col-xl-6.col-lg-6.col-md-12.col-sm-12.col-12
         img(src='@/assets/curso/tema1/imagen11.jpg')
-
+    p.my-5 Los subprocesos que comprende la auditoría externa de las unidades productivas agropecuarias son, principalmente, los siguientes:
     .row.justify-content-center(data-aos="fade-down")
       .col-xxl-8.col-xl-8.col-lg-8.col-md-12.col-sm-12.col-12.mb-4
         AcordionA(tipo="b" clase-tarjeta="tarjeta fondo3")
@@ -477,9 +481,33 @@
         p Asegurar la sostenibilidad de la certificación de la unidad productiva requiere de un esfuerzo constante de mejora continua en el cual el productor debe mantener la calidad y eficiencia en todos los ítems evaluados, porque el sello puede ser revocado si no se cumple con los criterios establecidos.
     .row.justify-content-center.ampliar.px-5.fondo5.align-items-center(data-aos="fade-up")
       .col-xxl-12
-        p.my-5 Como todos los procesos de mejora continua, este se basa en el ciclo PHVA - planear, hacer, verificar, actuar, el cual, básicamente consiste en:
+        p.my-5 Como todos los procesos de mejora continua, este se basa en el ciclo PHVA - 
+          span.text-bold planear, hacer, verificar, actuar
+          span , el cual, básicamente consiste en:
       .col-xxl-6.col-xl-6.col-lg-6.col-md-8.col-sm-10.col-12
-        img(src='@/assets/curso/tema1/imagen14.png')
+
+        ImagenInfografica.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema1/imagen14.png')
+
+          .tarjeta.sombratarjeta.fondotarjeta.p-3(x="27.5%" y="16%" numero="+")
+            h4 1. Planear
+            p Identificar oportunidades de mejora y planear cómo llevarlas a cabo. 
+
+          .tarjeta.sombratarjeta.fondotarjeta.p-3(x="79%" y="22%" numero="+")
+            h4 2. Hacer
+            p Llevar a cabo las actividades de mejora planeadas en la etapa anterior.  
+
+          .tarjeta.sombratarjeta.fondotarjeta.p-3(x="21%" y="67%" numero="+")
+            h4 3. Verificar
+            p Evaluar los impactos de las actividades de mejora implementadas. 
+
+          .tarjeta.sombratarjeta.fondotarjeta.p-3(x="75%" y="72%" numero="+")
+            h4 4. Actuar
+            p Tomar medidas que permitan mejorar continuamente los procesos. 
+
+        
     .row.justify-content-center.my-5(data-aos="fade-down")
       .col-xxl-7.col-xl-7.col-lg-7.col-md-12.col-sm-12.col-12
         p Para que la mejora continua se convierta en una realidad dentro de la unidad productiva, es necesario y fundamental:

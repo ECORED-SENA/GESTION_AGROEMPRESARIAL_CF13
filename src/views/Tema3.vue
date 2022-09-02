@@ -166,7 +166,7 @@
     p.mb-5(data-aos="fade-up-right") Se pueden conocer los elementos básicos para el desarrollo de inspecciones en el ámbito de la empresa en proceso de certificación, a través del siguiente video:
     figure.mb-5(data-aos="fade-up-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PBsDv0I1KO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center(data-aos="fade-up-right")
       .col-xxl-6.col-xl-6.col-lg-6.col-md-12.col-sm-12.col-12.mb-4
         img(src="@/assets/curso/tema3/imagen6.jpg")

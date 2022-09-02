@@ -15,8 +15,7 @@
     p.mb-5(data-aos="fade-down-right") En el video que se muestra a continuación, se detallan los parámetros de la evaluación de resultados, dentro del proceso de certificación; se sugiere observarlo atentamente y llevar un registro de lo más destacado:
     figure.mb-5(data-aos="fade-down-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/ZVp3TlafZ1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 5.1 Medición de impactos

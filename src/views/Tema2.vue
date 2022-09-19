@@ -17,29 +17,29 @@
       .col-xxl-8.col-xl-8.col-lg-8.col-md-12.col-sm-12.col-12.mb-4
         AcordionA(tipo="b" clase-tarjeta="tarjeta fondo3")
           .row.align-items-center(titulo="Cumplimiento")
-            .col-2.col-sm-2.col-lg-1.col-md-1.mb-4.mb-md-0
+            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/tema2/acordeon1.svg')
-            .col-md-10.col-sm-10.col-10.mb-4.mb-md-0.mb-lg-0
+            .col-md-10.col-sm-9.col-9.mb-4.mb-md-0.mb-lg-0
               p.mb-0 Cumplimiento de una serie de requisitos altamente exigentes.
           .row.align-items-center(titulo="Evaluación")
-            .col-2.col-sm-2.col-lg-1.col-md-1.mb-4.mb-md-0
+            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/tema2/acordeon2.svg')
-            .col-md-10.col-sm-10.col-10.mb-4.mb-md-0
+            .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
               p.mb-0 Ser evaluada, en el cumplimiento de tales requisitos, por una autoridad superior que recibe el nombre de organismo acreditador.
           .row.align-items-center(titulo="Aplicación de las normas")
-            .col-2.col-sm-2.col-lg-1.col-md-1.mb-4.mb-md-0
+            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/tema2/acordeon3.svg')
-            .col-md-10.col-sm-10.col-10.mb-4.mb-md-0
+            .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
               p.mb-0 Asumir y aplicar las normas técnicas (base de la certificación) establecidas por los organismos normalizadores.
           .row.align-items-center(titulo="Organismos normalizadores y acreditadores")
-            .col-2.col-sm-2.col-lg-1.col-md-1.mb-4.mb-md-0
+            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/tema2/acordeon4.svg')
-            .col-md-10.col-sm-10.col-10.mb-4.mb-md-0
+            .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
               p.mb-0 Los organismos normalizadores son distintos de los organismos acreditadores, pues los primeros avalan el funcionamiento idóneo de los segundos.
           .row.align-items-center(titulo="Función binaria de los organismos")
-            .col-2.col-sm-2.col-lg-1.col-md-1.mb-4.mb-md-0
+            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
               img(src='@/assets/curso/tema2/acordeon5.svg')
-            .col-md-10.col-sm-10.col-10.mb-4.mb-md-0
+            .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
               p.mb-0 Incluso, existen casos en los que algunas entidades normalizadoras también pueden ser entidades certificadoras.
       .col-xxl-4.col-xl-4.col-lg-4.col-md-12.col-sm-12.col-12.mb-4
         img(src='@/assets/curso/tema2/imagen2.jpg')
@@ -75,10 +75,13 @@
               table
                 caption Nota. Tomada del Ministerio de Agricultura y Desarrollo Rural (2022).
                 tr.fondo13.text-white
-                  th.mb-0.anchocol.bordetabla.text-center Organismo de certificación
-                  th.mb-0.anchocol.bordetabla.text-center Acreditación ONAC (código)
-                  th.mb-0.anchocol.sinborde.text-center Autorización de la autoridad competente
-                tr
+                  th.mb-0.anchocol.bordetabla.text-center 
+                    h3.mb-0 Organismo de certificación
+                  th.mb-0.anchocol.bordetabla.text-center 
+                    h3.mb-0 Acreditación ONAC (código)
+                  th.mb-0.anchocol.sinborde.text-center 
+                    h3.mb-0 Autorización de la autoridad competente
+                tr.fondo7
                   td.anchocol.bordetabla.text-center <i>Bcs Öko Garantie</i> Colombia S.A.S
                   td.anchocol.bordetabla.text-center 13-CPR-002
                   td.anchocol.text-center Resolución del Ministerio de Agricultura y Desarrollo Rural 438 de 2018.
@@ -86,7 +89,7 @@
                   td.anchocol.bordetabla.text-center Certificadora Biotrópico S.A.S.
                   td.anchocol.bordetabla.text-center 12-CPR-002
                   td.anchocol.text-center Resolución del Ministerio de Agricultura y Desarrollo Rural 442 de 2018.
-                tr
+                tr.fondo7
                   td.anchocol.bordetabla.text-center <i>Ceres Certification of Environmental Standards</i> Colombia S.A.S.
                   td.anchocol.bordetabla.text-center 14-CPR-001
                   td.anchocol.text-center Resolución del Ministerio de Agricultura y Desarrollo Rural 441 de 2018.
@@ -94,7 +97,7 @@
                   td.anchocol.bordetabla.text-center Control Unión Perú Sucursal Colombia
                   td.anchocol.bordetabla.text-center 15-CPR-005
                   td.anchocol.text-center Resolución del Ministerio de Agricultura y Desarrollo Rural 440 de 2018.
-                tr
+                tr.fondo7
                   td.anchocol.bordetabla.text-center Ecocert Colombia Ltda.
                   td.anchocol.bordetabla.text-center 10-CPR-006
                   td.anchocol.text-center Resolución del Ministerio de Agricultura y Desarrollo Rural 439 de 2018.
@@ -123,9 +126,11 @@
               table
                 caption Nota. Adaptada del Ministerio de Agricultura y Desarrollo Rural (2022).
                 tr
-                  th.mb-0.anchocol1.bordetabla.fondo12.text-center Organismo de certificación
-                  th.mb-0.bordetabla.anchocol1.fondo12.text-center Categorías de productos (alcance de la acreditación)
-                tr.bordeabajo
+                  th.mb-0.anchocol1.bordetabla.fondo12.text-center 
+                    h3.mb-0 Organismo de certificación
+                  th.mb-0.bordetabla.anchocol1.fondo12.text-center 
+                    h3.mb-0 Categorías de productos (alcance de la acreditación)
+                tr.bordeabajo.fondo10
                   td.anchocol.bordetabla.text-center  Instituto Colombiano de Normas Técnicas - Icontec.
                   <th rowspan="4">
                     p ISO 9001. Sistema de gestión de calidad.
@@ -136,53 +141,53 @@
                     p ISO 27001. Gestión para la seguridad de la información. 
                     p FSSC 22000. Requisito para ISO 22000 y otras regulaciones.
                   </th>
-                tr.bordeabajo
+                tr.bordeabajo.fondo10
                   td.anchocol.bordetabla.text-center  Grupo <i>Bureau Veritas Quality Internacional</i> (BVQI).
-                tr.bordeabajo
+                tr.bordeabajo.fondo10
                   td.anchocol.bordetabla.text-center  <i>Societé Genérale de Surveillance</i> (SGS).
-                tr.bordeabajo
+                tr.bordeabajo.fondo10
                   td.anchocol.bordetabla.text-center  <i>Lloyd’s Register</i>.
-                tr.bordeabajo
+                tr.bordeabajo.fondo7
                   td.anchocol.bordetabla.text-center Instituto Colombiano Agropecuario ICA.
                   td.anchocol Producción primaria agrícola y pecuaria.
-                tr.bordeabajo
+                tr.bordeabajo.fondo10
                   td.anchocol.bordetabla.text-center <i>Bcs Öko Garantie</i> Colombia S.A.S.
                   td.anchocol
                     p Productos agrícolas no transformados.
                     p Productos pecuarios no transformados. 
                     p Productos procesados destinados a la alimentación humana.
-                tr.bordeabajo
+                tr.bordeabajo.fondo7
                   td.anchocol.bordetabla.text-center Certificadora Biotrópico S.A.S.
                   td.anchocol
                     p Productos agrícolas.
                     p Productos agrícolas procesados.
-                tr.bordeabajo
+                tr.bordeabajo.fondo10
                   td.anchocol.bordetabla.text-center <i>Ceres Certification Of Environmental Standards Colombia S.A.S.</i>
                   td.anchocol
                     p Productos primarios agrícolas ecológicos.
                     p Productos primarios pecuarios ecológicos.
                     p Productos procesados destinados a la alimentación humana.
-                tr.bordeabajo
+                tr.bordeabajo.fondo7
                   td.anchocol.bordetabla.text-center Control Unión Perú Sucursal Colombia.
                   td.anchocol
                     p Productos agrícolas vegetales no transformados.
                     p Productos procesados destinados a la alimentación humana.                  
-                tr.bordeabajo
+                tr.bordeabajo.fondo10
                   td.anchocol.bordetabla.text-center Ecocert Colombia Ltda.
                   td.anchocol
                     p Productos primarios agrícolas ecológicos.
                     p Productos primarios pecuarios ecológicos.
                     p Productos procesados agrícolas ecológicos.
                     p Productos procesados pecuarios ecológicos.
-                tr.bordeabajo
+                tr.bordeabajo.fondo7
                   td.anchocol.bordetabla.text-center Mayacert S.A.S.
                   td.anchocol
                     p Productos primarios agrícolas ecológicos.
                     p Productos procesados agrícolas ecológicos.
-                tr.bordeabajo
+                tr.bordeabajo.fondo10
                   td.anchocol.bordetabla.text-center Natura Cert
                   td.anchocol Global G.A.P.
-                tr
+                tr.fondo7
                   td.anchocol.bordetabla.text-center Instituto Colombiano de Normas Técnicas.
                   td.anchocol Global G.A.P.
 </template>

@@ -84,7 +84,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/t1a.jpg")
+              img(src="@/assets/curso/tema3/t2a.jpg")
           .crd_hover_txt--body.nuevocolor
             h4.mb-3 Según tipo de certificación
             p.mb-0 La normativa aplicable depende de cada tipo de certificación, ya que estas tienen diferentes objetivos y estándares.
@@ -92,7 +92,7 @@
         .crd_hover_txt
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/tema3/t2a.jpg")
+              img(src="@/assets/curso/tema3/t1a.jpg")
           .crd_hover_txt--body.nuevocolor
             h4.mb-3 Reglamentos de cada certificación
             p.mb-0 Con base en los reglamentos de cada certificación se elaboran las listas de chequeo a través de las cuales se evalúa el cumplimiento o incumplimiento por parte de la empresa agropecuaria de los parámetros definidos.
@@ -159,77 +159,79 @@
               img.pb-3(src="@/assets/curso/tema3/imagen5.svg")
             .col-xxl-9.col-md-9.col-sm-9.col-9
               p Sin las evidencias documentales de las actividades realizadas, no es posible establecer la conformidad en el cumplimiento de las listas de chequeo establecidas por los diferentes estándares abordados en la producción agropecuaria certificada.
-    separador
-    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade")
-      h2 3.3 Inspección de procesos
-    p(data-aos="fade-up-left") La inspección es la actividad central en el proceso de certificación y consiste en verificar o evaluar el cumplimiento de los requisitos establecidos, de acuerdo con el estándar que se esté manejando.
-    p.mb-5(data-aos="fade-up-right") Se pueden conocer los elementos básicos para el desarrollo de inspecciones en el ámbito de la empresa en proceso de certificación, a través del siguiente video:
-    figure.mb-5(data-aos="fade-up-left")
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/PBsDv0I1KO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .row.justify-content-center(data-aos="fade-up-right")
-      .col-xxl-6.col-xl-6.col-lg-6.col-md-12.col-sm-12.col-12.mb-4
-        img(src="@/assets/curso/tema3/imagen6.jpg")
-      .col-xxl-6.col-xl-6.col-lg-6.col-md-12.col-sm-12.col-12.mb-4
-        .cajon.color-acento-contenido.px-4.pt-3.pb-1.mb-4.fondo17
-          p Independientemente del estándar de certificación, en la inspección de las unidades productivas, se tienen en cuenta tres tipos de parámetros o criterios, los cuales se clasifican de acuerdo con su grado de criticidad o importancia dentro del proceso productivo: criterios críticos, criterios mayores, criterios menores. Con ellos, se construyen las listas de chequeo que se emplean durante la verificación; su conformidad o no conformidad es lo que, finalmente, permite saber si se otorga o no la certificación a la empresa agropecuaria.
-    p.my-5(data-aos="fade-up-left") A continuación, se enuncia la definición sobre cada uno de los tres tipos de criterios o parámetros.
-    .row.mb-5(data-aos="fade-up-right")
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema3/avatar1.svg' alt='AvatarTop')
-          .tarjeta.fondo18
-            .p-4
-              h2.text-center Criterios críticos
-              p.text-center Son los que deben cumplirse como condición para la certificación. Generalmente, deben alcanzar, al menos, dos puntos, pues con menor puntaje no puede otorgarse la certificación, sino que se debe solicitar una nueva auditoría. En la mayoría de las certificaciones la nueva auditoría no puede realizarse antes de haber transcurrido tres meses desde la inicial.
+    .row.ampliar.px-5.fondo28
+      .col-12
+        separador
+        #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade")
+          h2 3.3 Inspección de procesos
+        p(data-aos="fade-up-left") La inspección es la actividad central en el proceso de certificación y consiste en verificar o evaluar el cumplimiento de los requisitos establecidos, de acuerdo con el estándar que se esté manejando.
+        p.mb-5(data-aos="fade-up-right") Se pueden conocer los elementos básicos para el desarrollo de inspecciones en el ámbito de la empresa en proceso de certificación, a través del siguiente video:
+        figure.mb-5(data-aos="fade-up-left")
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/PBsDv0I1KO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        .row.justify-content-center(data-aos="fade-up-right")
+          .col-xxl-6.col-xl-6.col-lg-6.col-md-12.col-sm-12.col-12.mb-4
+            img(src="@/assets/curso/tema3/imagen6.jpg")
+          .col-xxl-6.col-xl-6.col-lg-6.col-md-12.col-sm-12.col-12.mb-4
+            .cajon.color-acento-contenido.px-4.pt-3.pb-1.mb-4.fondo17
+              p Independientemente del estándar de certificación, en la inspección de las unidades productivas, se tienen en cuenta tres tipos de parámetros o criterios, los cuales se clasifican de acuerdo con su grado de criticidad o importancia dentro del proceso productivo: criterios críticos, criterios mayores, criterios menores. Con ellos, se construyen las listas de chequeo que se emplean durante la verificación; su conformidad o no conformidad es lo que, finalmente, permite saber si se otorga o no la certificación a la empresa agropecuaria.
+        p.my-5(data-aos="fade-up-left") A continuación, se enuncia la definición sobre cada uno de los tres tipos de criterios o parámetros.
+        .row.mb-5(data-aos="fade-up-right")
+          .col-md-6.col-lg.mb-5.mb-lg-0
+            .tarjeta-avatar
+              img.p-3(src='@/assets/curso/tema3/avatar1.svg' alt='AvatarTop')
+              .tarjeta.fondo18
+                .p-4
+                  h4.text-center Criterios críticos
+                  p.text-center Son los que deben cumplirse como condición para la certificación. Generalmente, deben alcanzar, al menos, dos puntos, pues con menor puntaje no puede otorgarse la certificación, sino que se debe solicitar una nueva auditoría. En la mayoría de las certificaciones la nueva auditoría no puede realizarse antes de haber transcurrido tres meses desde la inicial.
 
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema3/avatar2.svg' alt='AvatarTop')
-          .tarjeta.fondo18
-            .p-4
-              h2.text-center Parámetros mayores
-              p.text-center Se deben alcanzar, al menos, dos puntos. Puntajes de 0 o 1 indican que se deben tomar medidas correctivas las cuales deben ser debidamente documentadas en un plazo de 28 días. En caso de no cumplir se niega la certificación.
+          .col-md-6.col-lg.mb-5.mb-lg-0
+            .tarjeta-avatar
+              img.p-3(src='@/assets/curso/tema3/avatar2.svg' alt='AvatarTop')
+              .tarjeta.fondo18
+                .p-4
+                  h4.text-center Parámetros mayores
+                  p.text-center Se deben alcanzar, al menos, dos puntos. Puntajes de 0 o 1 indican que se deben tomar medidas correctivas las cuales deben ser debidamente documentadas en un plazo de 28 días. En caso de no cumplir se niega la certificación.
 
-      .col-md-6.col-lg.mb-5.mb-lg-0
-        .tarjeta-avatar
-          img(src='@/assets/curso/tema3/avatar3.svg' alt='AvatarTop')
-          .tarjeta.fondo18
-            .p-4
-              h2.text-center Criterios menores
-              p.text-center Requieren, por lo menos, dos puntos, pues los puntajes menores requieren la presentación de un plan de mejora en un plazo no mayor a 28 días. Estas medidas se deben ejecutar antes de la auditoría de seguimiento. Si se incumple con alguno de estos dos compromisos no se obtiene la certificación.
+          .col-md-6.col-lg.mb-5.mb-lg-0
+            .tarjeta-avatar
+              img.p-3(src='@/assets/curso/tema3/avatar3.svg' alt='AvatarTop')
+              .tarjeta.fondo18
+                .p-4
+                  h4.text-center Criterios menores
+                  p.text-center Requieren, por lo menos, dos puntos, pues los puntajes menores requieren la presentación de un plan de mejora en un plazo no mayor a 28 días. Estas medidas se deben ejecutar antes de la auditoría de seguimiento. Si se incumple con alguno de estos dos compromisos no se obtiene la certificación.
 
-    p.mt-5(data-aos="fade-up-left") Con base en los hallazgos del proceso de auditoría o inspección, el ente certificador evalúa los resultados para, posteriormente, emitir un concepto final en el cual se aprueba o se rechaza la certificación.
-    p.mb-5(data-aos="fade-right") Los criterios definidos dependen del organismo certificador y, en términos generales, tras un proceso de evaluación, se pueden obtener los siguientes resultados:
-    TabsA.color-acento-botones.mb-5(data-aos="fade")
-      .tarjeta.fondo19.p-4(titulo="Otorgar la certificación")
-        .row.justify-content-center.align-items-center
-          .col-xl-2.col-md-2.col-sm-2.col-4.mb-3
-            img(src='@/assets/curso/tema3/tarjeta1.svg')
-          .col-xl-10.col-md-10.col-sm-10.col-12
-            h4 Otorgar la certificación
-            p Esta decisión aplica para certificaciones nuevas, renovación de la certificación (antes del vencimiento del certificado), reemisión de certificado para cambio de domicilio, cambio de razón social, ampliación o reducción de alcance u otro cambio que involucre una emisión de un nuevo certificado o una revisión del que está vigente. 
-      .tarjeta.fondo19.p-4(titulo="Restaurar la certificación")
-        .row.justify-content-center.align-items-center
-          .col-xl-2.col-md-2.col-sm-2.col-4.mb-3
-            img(src='@/assets/curso/tema3/tarjeta2.svg')
-          .col-xl-10.col-md-10.col-sm-10.col-12
-            h4 Restaurar la certificación
-            p Esta decisión aplica para renovaciones de la certificación que han sobrepasado el plazo de vencimiento del certificado, pero que están dentro de los rangos de tiempo que dan margen de recuperarla. 
-      .tarjeta.fondo19.p-4(titulo="Denegar la certificación")
-        .row.justify-content-center.align-items-center
-          .col-xl-2.col-md-2.col-sm-2.col-4.mb-3
-            img(src='@/assets/curso/tema3/tarjeta3.svg')
-          .col-xl-10.col-md-10.col-sm-10.col-12
-            h4 Denegar la certificación
-            p Cuando no se cuenta con evidencia suficiente para otorgar la certificación o se incumplen los compromisos establecidos posteriormente a la auditoría. 
-      .tarjeta.fondo19.p-4(titulo="Mantener la certificación")
-        .row.justify-content-center.align-items-center
-          .col-xl-2.col-md-2.col-sm-2.col-4.mb-3
-            img(src='@/assets/curso/tema3/tarjeta4.svg')
-          .col-xl-10.col-md-10.col-sm-10.col-12
-            h4 Mantener la certificación
-            p Esta decisión aplica para mantenciones y auditorías extraordinarias, que no requieran emisión de certificado, se revisan todos los antecedentes del proceso de auditoría, dejándose una evidencia de esta revisión.
+        p.mt-5(data-aos="fade-up-left") Con base en los hallazgos del proceso de auditoría o inspección, el ente certificador evalúa los resultados para, posteriormente, emitir un concepto final en el cual se aprueba o se rechaza la certificación.
+        p.mb-5(data-aos="fade-right") Los criterios definidos dependen del organismo certificador y, en términos generales, tras un proceso de evaluación, se pueden obtener los siguientes resultados:
+        TabsA.color-acento-botones.mb-5(data-aos="fade")
+          .tarjeta.fondo19.p-4(titulo="Otorgar la certificación")
+            .row.justify-content-center.align-items-center
+              .col-xl-2.col-md-2.col-sm-2.col-4.mb-3
+                img(src='@/assets/curso/tema3/tarjeta1.svg')
+              .col-xl-10.col-md-10.col-sm-10.col-12
+                h4 Otorgar la certificación
+                p Esta decisión aplica para certificaciones nuevas, renovación de la certificación (antes del vencimiento del certificado), reemisión de certificado para cambio de domicilio, cambio de razón social, ampliación o reducción de alcance u otro cambio que involucre una emisión de un nuevo certificado o una revisión del que está vigente. 
+          .tarjeta.fondo19.p-4(titulo="Restaurar la certificación")
+            .row.justify-content-center.align-items-center
+              .col-xl-2.col-md-2.col-sm-2.col-4.mb-3
+                img(src='@/assets/curso/tema3/tarjeta2.svg')
+              .col-xl-10.col-md-10.col-sm-10.col-12
+                h4 Restaurar la certificación
+                p Esta decisión aplica para renovaciones de la certificación que han sobrepasado el plazo de vencimiento del certificado, pero que están dentro de los rangos de tiempo que dan margen de recuperarla. 
+          .tarjeta.fondo19.p-4(titulo="Denegar la certificación")
+            .row.justify-content-center.align-items-center
+              .col-xl-2.col-md-2.col-sm-2.col-4.mb-3
+                img(src='@/assets/curso/tema3/tarjeta3.svg')
+              .col-xl-10.col-md-10.col-sm-10.col-12
+                h4 Denegar la certificación
+                p Cuando no se cuenta con evidencia suficiente para otorgar la certificación o se incumplen los compromisos establecidos posteriormente a la auditoría. 
+          .tarjeta.fondo19.p-4(titulo="Mantener la certificación")
+            .row.justify-content-center.align-items-center
+              .col-xl-2.col-md-2.col-sm-2.col-4.mb-3
+                img(src='@/assets/curso/tema3/tarjeta4.svg')
+              .col-xl-10.col-md-10.col-sm-10.col-12
+                h4 Mantener la certificación
+                p Esta decisión aplica para mantenciones y auditorías extraordinarias, que no requieran emisión de certificado, se revisan todos los antecedentes del proceso de auditoría, dejándose una evidencia de esta revisión.
 
 </template>
 

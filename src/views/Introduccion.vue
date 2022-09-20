@@ -1,11 +1,11 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
-    .titulo-principal.color-acento-contenido(data-aos="fade")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5  
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span.text-white i
+        span
+          i.fas.fa-info
       h1 Introducción
     p.mb-5(data-aos="fade-down") Aquí comienza el estudio del componente formativo 
       span.colortextocontenido.text-bold Implementación de procesos de certificación de sistemas agropecuarios

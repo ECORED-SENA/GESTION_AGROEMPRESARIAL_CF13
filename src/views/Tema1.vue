@@ -446,27 +446,27 @@
           .col-xxl-8.col-xl-8.col-lg-8.col-md-12.col-sm-12.col-12.mb-4
             AcordionA(tipo="b" clase-tarjeta="tarjeta fondo3")
               .row.align-items-center(titulo="<p style='font-size: 18px; font-weight: 700;'>Inspección externa</p>")
-                .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
+                .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0.px-lg-4
                   img(src='@/assets/curso/tema1/acordeon2-1.svg')
                 .col-md-10.col-sm-9.col-9.mb-4.mb-md-0.mb-lg-0
                   p.mb-0 Requiere de un plan de auditoría y de un auditor ajeno a la unidad productiva.
               .row.align-items-center(titulo="<p style='font-size: 18px; font-weight: 700;'>Reporte de inspección</p>")
-                .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
+                .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0.px-lg-4
                   img(src='@/assets/curso/tema1/acordeon2-2.svg')
                 .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
                   p.mb-0 El reporte se firma por las partes y se entrega copia al solicitante - productor.
               .row.align-items-center(titulo="<p style='font-size: 18px; font-weight: 700;'>Acciones de mejora</p>")
-                .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
+                .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0.px-lg-4
                   img(src='@/assets/curso/tema1/acordeon2-3.svg')
                 .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
                   p.mb-0 Dentro del reporte se especifican las actividades que requieren especial atención.
               .row.align-items-center(titulo="<p style='font-size: 18px; font-weight: 700;'>Nueva inspección</p>")
-                .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
+                .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0.px-lg-4
                   img(src='@/assets/curso/tema1/acordeon2-4.svg')
                 .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
                   p.mb-0 Se dan plazos razonables para las adecuaciones necesarias para cumplir con la normatividad.
               .row.align-items-center(titulo="<p style='font-size: 18px; font-weight: 700;'>Certificación de decisión</p>")
-                .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
+                .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0.px-lg-4
                   img(src='@/assets/curso/tema1/acordeon2-5.svg')
                 .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
                   p.mb-0 Se define si la unidad productiva cumple con los requisitos para acceder a la certificación.

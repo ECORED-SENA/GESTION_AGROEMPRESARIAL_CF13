@@ -17,27 +17,27 @@
       .col-xxl-8.col-xl-8.col-lg-8.col-md-12.col-sm-12.col-12.mb-4
         AcordionA(tipo="b" clase-tarjeta="tarjeta fondo3")
           .row.align-items-center(titulo="Cumplimiento")
-            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
+            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0.px-lg-4
               img(src='@/assets/curso/tema2/acordeon1.svg')
             .col-md-10.col-sm-9.col-9.mb-4.mb-md-0.mb-lg-0
               p.mb-0 Cumplimiento de una serie de requisitos altamente exigentes.
           .row.align-items-center(titulo="Evaluación")
-            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
+            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0.px-lg-4
               img(src='@/assets/curso/tema2/acordeon2.svg')
             .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
               p.mb-0 Ser evaluada, en el cumplimiento de tales requisitos, por una autoridad superior que recibe el nombre de organismo acreditador.
           .row.align-items-center(titulo="Aplicación de las normas")
-            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
+            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0.px-lg-4
               img(src='@/assets/curso/tema2/acordeon3.svg')
             .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
               p.mb-0 Asumir y aplicar las normas técnicas (base de la certificación) establecidas por los organismos normalizadores.
           .row.align-items-center(titulo="Organismos normalizadores y acreditadores")
-            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
+            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0.px-lg-4
               img(src='@/assets/curso/tema2/acordeon4.svg')
             .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
               p.mb-0 Los organismos normalizadores son distintos de los organismos acreditadores, pues los primeros avalan el funcionamiento idóneo de los segundos.
           .row.align-items-center(titulo="Función binaria de los organismos")
-            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0
+            .col-3.col-sm-3.col-lg-2.col-md-2.mb-4.mb-md-0.px-lg-4
               img(src='@/assets/curso/tema2/acordeon5.svg')
             .col-md-10.col-sm-9.col-9.mb-4.mb-md-0
               p.mb-0 Incluso, existen casos en los que algunas entidades normalizadoras también pueden ser entidades certificadoras.

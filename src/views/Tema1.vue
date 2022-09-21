@@ -104,47 +104,47 @@
               p Una vez se escoge la certificadora, se procede a realizar la solicitud, para lo cual cada empresa tiene sus protocolos y procedimientos.
               p Es de suma importancia establecer un contacto inicial con la empresa o contar con asesoría profesional al respecto del proceso de certificación.
         p.my-5(data-aos="fade-left") En el caso de la certificación en BPA del ICA, de acuerdo con la normativa, a la solicitud escrita se le deben anexar los siguientes documentos:
-        SlyderF(data-aos="fade-down").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
+        SlyderF.anchotar2(data-aos="fade-down").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
           .tarjeta-avatar.sizecrd
-            img(src='@/assets/curso/tema1/slider1.svg')
+            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider1.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-4
+              .text-dark.p-1.p-sm-4
                 p.text-center Certificado de existencia y representación legal de la cámara de comercio (persona jurídica). 
 
           .tarjeta-avatar.sizecrd
-            img(src='@/assets/curso/tema1/slider2.svg')
+            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider2.svg')
             .tarjeta.fondoavatar.sombracrd
               .text-dark.p-4
                 p.text-center Acreditar propiedad, tenencia o posesión del predio. 
 
           .tarjeta-avatar.sizecrd
-            img(src='@/assets/curso/tema1/slider3.svg')
+            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider3.svg')
             .tarjeta.fondoavatar.sombracrd
               .text-dark.p-4
                 p.text-center Acreditar asistencia técnica profesional a la unidad productiva. 
 
           .tarjeta-avatar.sizecrd
-            img(src='@/assets/curso/tema1/slider4.svg')
+            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider4.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-4
+              .text-dark.p-1.p-sm-4
                 p.text-center Croquis de llegada y plano de la finca indicando las áreas destinadas a la producción. 
 
           .tarjeta-avatar.sizecrd
-            img(src='@/assets/curso/tema1/slider5.svg')
+            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider5.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-5
+              .text-dark.p-4
                 p.text-center Certificado de uso del suelo.
 
           .tarjeta-avatar.sizecrd
-            img(src='@/assets/curso/tema1/slider6.svg')
+            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider6.svg')
             .tarjeta.fondoavatar.sombracrd
               .text-dark.p-4
                 p.text-center Análisis microbiológico de las aguas utilizadas en el predio. 
 
           .tarjeta-avatar.sizecrd
-            img(src='@/assets/curso/tema1/slider7.svg')
+            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider7.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-4
+              .text-dark.p-1.p-sm-4
                 p.text-center Permiso de uso de aguas o radicado de solicitud (Decreto 3930 de 2010 del Ministerio de Ambiente).
         p.mt-5 En el caso de la certificación orgánica, en el documento de solicitud y dependiendo de la certificadora, se debe responder un cuestionario que, por lo general, aborda los siguientes temas: 
     .row.justify-content-center(data-aos="fade-up")
@@ -228,32 +228,32 @@
       .col-xxl-8.col-xl-8.col-lg-8.col-md-12.col-sm-12.col-12
         AcordionA(tipo="b" clase-tarjeta="tarjeta fondo3")
           .row.align-items-center(titulo="Uso del suelo")
-            .col-2.col-sm-2.col-lg-2.col-md-1.mb-md-0.p-lg-4
+            .col-2.col-sm-2.col-lg-2.col-md-2.mb-md-0.p-lg-4
               img(src='@/assets/curso/tema1/acordeon1.svg')
             .col-md-10.col-sm-10.col-10.mb-md-0.mb-lg-0
               p.mb-0 Se debe tener claridad sobre los usos del suelo permitidos en la zona en la cual se desarrolla la actividad productiva.
           .row.align-items-center(titulo="Concesión de aguas")
-            .col-2.col-sm-2.col-lg-2.col-md-1.mb-md-0.p-lg-4
+            .col-2.col-sm-2.col-lg-2.col-md-2.mb-md-0.p-lg-4
               img(src='@/assets/curso/tema1/acordeon2.svg')
             .col-md-10.col-sm-10.col-10.mb-md-0
               p.mb-0 Se debe tramitar la solicitud ante la autoridad ambiental competente para el uso de las fuentes de agua. 
           .row.align-items-center(titulo="Permisos ambientales")
-            .col-2.col-sm-2.col-lg-2.col-md-1.mb-md-0.p-lg-4
+            .col-2.col-sm-2.col-lg-2.col-md-2.mb-md-0.p-lg-4
               img(src='@/assets/curso/tema1/acordeon3.svg')
             .col-md-10.col-sm-10.col-10.mb-md-0
               p.mb-0 Es necesario contar con los permisos para aprovechamiento forestal u obras de infraestructura entre otros. 
           .row.align-items-center(titulo="Manejo de residuos sólidos")
-            .col-2.col-sm-2.col-lg-2.col-md-1.mb-md-0.p-lg-4
+            .col-2.col-sm-2.col-lg-2.col-md-2.mb-md-0.p-lg-4
               img(src='@/assets/curso/tema1/acordeon4.svg')
             .col-md-10.col-sm-10.col-10.mb-md-0
               p.mb-0 Se debe contar con un plan de manejo de residuos sólidos debidamente avalado.
           .row.align-items-center(titulo="Seguridad y salud en el trabajo")
-            .col-2.col-sm-2.col-lg-2.col-md-1.mb-md-0.p-lg-4
+            .col-2.col-sm-2.col-lg-2.col-md-2.mb-md-0.p-lg-4
               img(src='@/assets/curso/tema1/acordeon5.svg')
             .col-md-10.col-sm-10.col-10.mb-4.mb-md-0
               p.mb-0 Es importante cumplir con lo recomendado por la normativa en relación con el bienestar de los trabajadores. 
           .row.align-items-center(titulo="Normatividad ICA")
-            .col-2.col-sm-2.col-lg-2.col-md-1.mb-md-0.p-lg-4
+            .col-2.col-sm-2.col-lg-2.col-md-2.mb-md-0.p-lg-4
               img(src='@/assets/curso/tema1/acordeon6.svg')
             .col-md-10.col-sm-10.col-10.mb-md-0
               p.mb-0 Cada una de las explotaciones que se desee certificar debe cumplir con la normatividad del ICA que aplique.
@@ -267,37 +267,37 @@
         .cajon.color-acento-contenido.p-4.mb-4.fondo2
           p Un correcto manejo de los registros facilita las actividades de seguimiento y permite tener trazabilidad sobre cada uno de los procesos que tienen lugar en la unidad agropecuaria, lo cual es fundamental para asegurar la calidad y preservar la salud de las personas.
     p.mb-5(data-aos="fade-down") Para la certificación orgánica, por ejemplo, según lo presentado por la firma auditora Ceres Colombia, en lo que respecta a la documentación, para lo cual es fundamental cumplir con las siguientes acciones:
-    .row.ampliar.px-5.fondo23
+    .row.ampliar.px-5.fondo23.justify-content-center
       .col-xxl-12
-        SlyderF(data-aos="fade-up").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
+        SlyderF.anchotar3(data-aos="fade-up").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
           .tarjeta-avatar.sizecrd1
-            img(src='@/assets/curso/tema1/slider2-1.png')
+            img.posicionimg2(src='@/assets/curso/tema1/slider2-1.png')
             .tarjeta.fondoavatar2.sombracrd
               .text-dark.p-4
                 p.text-center Se debe llevar un diario de producción, en el cual se registran las principales actividades en cada lote.
 
           .tarjeta-avatar.sizecrd1
-            img(src='@/assets/curso/tema1/slider2-2.png')
+            img.posicionimg2(src='@/assets/curso/tema1/slider2-2.png')
             .tarjeta.fondoavatar2.sombracrd
               .text-dark.p-4
                 p.text-center Se deben archivar las facturas de la compra de fertilizantes, plaguicidas, semillas etc. 
 
           .tarjeta-avatar.sizecrd1
-            img(src='@/assets/curso/tema1/slider2-3.png')
+            img.posicionimg2(src='@/assets/curso/tema1/slider2-3.png')
             .tarjeta.fondoavatar2.sombracrd
               .text-dark.p-4
                 p.text-center Se deben documentar las cantidades cosechadas de cada cultivo.
 
           .tarjeta-avatar.sizecrd1
-            img(src='@/assets/curso/tema1/slider2-4.png')
+            img.posicionimg2(src='@/assets/curso/tema1/slider2-4.png')
             .tarjeta.fondoavatar2.sombracrd
               .text-dark.p-4
                 p.text-center La finca necesita, como mínimo, un sistema simple de contabilidad de la venta de productos orgánicos. 
 
           .tarjeta-avatar.sizecrd1
-            img(src='@/assets/curso/tema1/slider2-5.png')
+            img.posicionimg2(src='@/assets/curso/tema1/slider2-5.png')
             .tarjeta.fondoavatar2.sombracrd
-              .text-dark.p-4
+              .text-dark.p-1.p-sm-4
                 p.text-center Adicionalmente, JAS (certificación orgánica japonesa) exige la documentación del control de cada lote vendido: antes de vender un lote con el logotipo JAS, el productor tiene que revisar si los requerimientos de JAS se han cumplido en cada paso de la producción.
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="fade-down")
       .bloque-texto-g__img(

@@ -128,59 +128,59 @@
     p.mb-5(data-aos="fade-left") Se recomienda que el reporte contenga, como mínimo, los siguientes elementos:
     .row.ampliar.px-5.fondo23.justify-content-center(data-aos="fade-right")
       .col-xxl-12
-        SlyderF.anchotar1.mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
-          .tarjeta-avatar.sizecrd2
-            img.posicionimg4(src='@/assets/curso/tema5/slider1.svg')
+        SlyderF.anchotar4(columnas="col-lg-6 col-xl-4 col-md-6")
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/slider1.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-2
+              .text-dark.p-4
                 h5.text-center Portada: 
                 p.text-center indicando autor, fecha, a quién se dirige y qué situación particular se reporta. 
 
-          .tarjeta-avatar.sizecrd2
-            img.posicionimg4(src='@/assets/curso/tema5/slider2.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/slider2.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-2
+              .text-dark.p-4
                 h5.text-center Resumen ejecutivo: 
                 p.text-center indicando qué hallazgos y qué conclusiones generales existen en el documento. 
 
-          .tarjeta-avatar.sizecrd2
-            img.posicionimg4(src='@/assets/curso/tema5/slider3.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/slider3.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-2
+              .text-dark.p-4
                 h5.text-center.px-5.mx-sm-5.mx-md-3 Tabla de contenido
 
-          .tarjeta-avatar.sizecrd2
-            img.posicionimg4(src='@/assets/curso/tema5/slider4.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/slider4.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-2
+              .text-dark.p-4
                 h5.text-center Metodología: 
                 p.text-center se expresa de manera muy puntual cómo se obtuvo la información y de qué fuentes proviene.
 
-          .tarjeta-avatar.sizecrd2
-            img.posicionimg4(src='@/assets/curso/tema5/slider5.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/slider5.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-2
+              .text-dark.p-4
                 h5.text-center Componente descriptivo: 
                 p.text-center es el cuerpo del documento y es donde se expresan los resultados encontrados, de una manera clara y muy dinámica.
 
-          .tarjeta-avatar.sizecrd2
+          .tarjeta-avatar
             img(src='@/assets/curso/tema5/slider6.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-2
+              .text-dark.p-4
                 h5.text-center Conclusiones: 
                 p.text-center se expresan los resultados de las observaciones realizadas con base siempre en la información estadística. 
 
-          .tarjeta-avatar.sizecrd2
-            img.posicionimg4(src='@/assets/curso/tema5/slider7.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/slider7.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-2
+              .text-dark.p-4
                 h5.text-center Recomendaciones: 
                 p.text-center se establecen algunas medidas que pueden ser pertinentes para superar las situaciones negativas encontradas en el proceso de observación. 
 
-          .tarjeta-avatar.sizecrd2
-            img.posicionimg4(src='@/assets/curso/tema5/slider8.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema5/slider8.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.py-2.px-4
+              .text-dark.p-4
                 h5.text-center Anexos
                 p.text-center son documentos o soportes que corroboran la información compartida en el cuerpo del documento. 
         .row.my-5

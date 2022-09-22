@@ -104,45 +104,45 @@
               p Una vez se escoge la certificadora, se procede a realizar la solicitud, para lo cual cada empresa tiene sus protocolos y procedimientos.
               p Es de suma importancia establecer un contacto inicial con la empresa o contar con asesoría profesional al respecto del proceso de certificación.
         p.my-5(data-aos="fade-left") En el caso de la certificación en BPA del ICA, de acuerdo con la normativa, a la solicitud escrita se le deben anexar los siguientes documentos:
-        SlyderF.anchotar2(data-aos="fade-down").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
-          .tarjeta-avatar.sizecrd
-            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider1.svg')
+        SlyderF.anchotar(data-aos="fade-down").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider1.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-1.p-sm-4
+              .text-dark.p-4
                 p.text-center Certificado de existencia y representación legal de la cámara de comercio (persona jurídica). 
 
-          .tarjeta-avatar.sizecrd
-            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider2.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider2.svg')
             .tarjeta.fondoavatar.sombracrd
               .text-dark.p-4
                 p.text-center Acreditar propiedad, tenencia o posesión del predio. 
 
-          .tarjeta-avatar.sizecrd
-            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider3.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider3.svg')
             .tarjeta.fondoavatar.sombracrd
               .text-dark.p-4
                 p.text-center Acreditar asistencia técnica profesional a la unidad productiva. 
 
-          .tarjeta-avatar.sizecrd
-            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider4.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider4.svg')
             .tarjeta.fondoavatar.sombracrd
               .text-dark.p-1.p-sm-4
                 p.text-center Croquis de llegada y plano de la finca indicando las áreas destinadas a la producción. 
 
-          .tarjeta-avatar.sizecrd
-            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider5.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider5.svg')
             .tarjeta.fondoavatar.sombracrd
-              .text-dark.p-4
+              .text-dark.px-5.py-4
                 p.text-center Certificado de uso del suelo.
 
-          .tarjeta-avatar.sizecrd
-            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider6.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider6.svg')
             .tarjeta.fondoavatar.sombracrd
               .text-dark.p-4
                 p.text-center Análisis microbiológico de las aguas utilizadas en el predio. 
 
-          .tarjeta-avatar.sizecrd
-            img.sizeimg.posicionimg1(src='@/assets/curso/tema1/slider7.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider7.svg')
             .tarjeta.fondoavatar.sombracrd
               .text-dark.p-1.p-sm-4
                 p.text-center Permiso de uso de aguas o radicado de solicitud (Decreto 3930 de 2010 del Ministerio de Ambiente).
@@ -269,35 +269,35 @@
     p.mb-5(data-aos="fade-down") Para la certificación orgánica, por ejemplo, según lo presentado por la firma auditora Ceres Colombia, en lo que respecta a la documentación, para lo cual es fundamental cumplir con las siguientes acciones:
     .row.ampliar.px-5.fondo23.justify-content-center
       .col-xxl-12
-        SlyderF.anchotar3(data-aos="fade-up").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
-          .tarjeta-avatar.sizecrd1
-            img.posicionimg2(src='@/assets/curso/tema1/slider2-1.png')
+        SlyderF.anchotar2(data-aos="fade-up").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider2-1.png')
             .tarjeta.fondoavatar2.sombracrd
               .text-dark.p-4
                 p.text-center Se debe llevar un diario de producción, en el cual se registran las principales actividades en cada lote.
 
-          .tarjeta-avatar.sizecrd1
-            img.posicionimg2(src='@/assets/curso/tema1/slider2-2.png')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider2-2.png')
             .tarjeta.fondoavatar2.sombracrd
               .text-dark.p-4
                 p.text-center Se deben archivar las facturas de la compra de fertilizantes, plaguicidas, semillas etc. 
 
-          .tarjeta-avatar.sizecrd1
-            img.posicionimg2(src='@/assets/curso/tema1/slider2-3.png')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider2-3.png')
             .tarjeta.fondoavatar2.sombracrd
               .text-dark.p-4
                 p.text-center Se deben documentar las cantidades cosechadas de cada cultivo.
 
-          .tarjeta-avatar.sizecrd1
-            img.posicionimg2(src='@/assets/curso/tema1/slider2-4.png')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider2-4.png')
             .tarjeta.fondoavatar2.sombracrd
               .text-dark.p-4
                 p.text-center La finca necesita, como mínimo, un sistema simple de contabilidad de la venta de productos orgánicos. 
 
-          .tarjeta-avatar.sizecrd1
-            img.posicionimg2(src='@/assets/curso/tema1/slider2-5.png')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema1/slider2-5.png')
             .tarjeta.fondoavatar2.sombracrd
-              .text-dark.p-1.p-sm-4
+              .text-dark.p-4
                 p.text-center Adicionalmente, JAS (certificación orgánica japonesa) exige la documentación del control de cada lote vendido: antes de vender un lote con el logotipo JAS, el productor tiene que revisar si los requerimientos de JAS se han cumplido en cada paso de la producción.
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5(data-aos="fade-down")
       .bloque-texto-g__img(

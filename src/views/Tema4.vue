@@ -16,39 +16,39 @@
     p.my-5(data-aos="fade-down-left") Para que esto sea posible es necesario diseñar estrategias enfocadas en:
     .row.ampliar.px-5.fondo29
       .col-12
-        SlyderF.anchotar(data-aos="fade-down-right").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
-          .tarjeta-avatar.sizecrd
-            img.posicionimg3(src='@/assets/curso/tema4/avatar1.svg')
+        SlyderF.anchotar3(data-aos="fade-down-right").mb-5(columnas="col-lg-6 col-xl-4 col-md-6")
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema4/avatar1.svg')
             .tarjeta.fondo20.sombracrd
               .text-dark.p-4
                 p.text-center.mx-1 El mantenimiento de la calidad. 
 
-          .tarjeta-avatar.sizecrd
-            img.posicionimg3(src='@/assets/curso/tema4/avatar2.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema4/avatar2.svg')
             .tarjeta.fondo20.sombracrd
               .text-dark.p-4
                 p.text-center La identificación de oportunidades de mejora.
 
-          .tarjeta-avatar.sizecrd
-            img.posicionimg3(src='@/assets/curso/tema4/avatar3.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema4/avatar3.svg')
             .tarjeta.fondo20.sombracrd
               .text-dark.p-4
                 p.text-center La capacitación permanente a los equipos de trabajo.
 
-          .tarjeta-avatar.sizecrd
-            img.posicionimg3(src='@/assets/curso/tema4/avatar4.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema4/avatar4.svg')
             .tarjeta.fondo20.sombracrd
               .text-dark.pb-2.pt-2.px-1.px-sm-3
                 p.text-center El establecimiento de protocolos y procedimientos que faciliten la estandarización de las actividades que tienen lugar en la empresa agropecuaria.
 
-          .tarjeta-avatar.sizecrd
-            img.posicionimg3(src='@/assets/curso/tema4/avatar5.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema4/avatar5.svg')
             .tarjeta.fondo20.sombracrd
               .text-dark.p-4
                 p.text-center La implementación de herramientas de seguimiento para la detección de fallas.
 
-          .tarjeta-avatar.sizecrd
-            img.posicionimg3(src='@/assets/curso/tema4/avatar6.svg')
+          .tarjeta-avatar
+            img(src='@/assets/curso/tema4/avatar6.svg')
             .tarjeta.fondo20.sombracrd
               .text-dark.p-4
                 p.text-center La implementación de las correspondientes medidas correctivas, como parte de un sistema de control interno. 

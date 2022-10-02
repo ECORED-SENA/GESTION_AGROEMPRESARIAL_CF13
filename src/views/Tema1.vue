@@ -82,7 +82,7 @@
             ul.lista-ul.ms-3
               li 
                 i.fas.fa-angle-right
-                | El Instituto Colombiano Agropecuarios (ICA).
+                | El Instituto Colombiano Agropecuario (ICA).
               li
                 i.fas.fa-angle-right
                 | El Instituto Colombiano de Normas Técnicas (Icontec).
@@ -241,7 +241,7 @@
             .col-2.col-sm-2.col-lg-2.col-md-2.mb-md-0.p-lg-4
               img(src='@/assets/curso/tema1/acordeon3.svg')
             .col-md-10.col-sm-10.col-10.mb-md-0
-              p.mb-0 Es necesario contar con los permisos para aprovechamiento forestal u obras de infraestructura entre otros. 
+              p.mb-0 Es necesario contar con los permisos para aprovechamiento forestal u obras de infraestructura, entre otros. 
           .row.align-items-center(titulo="Manejo de residuos sólidos")
             .col-2.col-sm-2.col-lg-2.col-md-2.mb-md-0.p-lg-4
               img(src='@/assets/curso/tema1/acordeon4.svg')
@@ -280,7 +280,7 @@
             img(src='@/assets/curso/tema1/slider2-2.png')
             .tarjeta.fondoavatar2.sombracrd
               .text-dark.p-4
-                p.text-center Se deben archivar las facturas de la compra de fertilizantes, plaguicidas, semillas etc. 
+                p.text-center Se deben archivar las facturas de la compra de fertilizantes, plaguicidas, semillas, etc. 
 
           .tarjeta-avatar
             img(src='@/assets/curso/tema1/slider2-3.png')
@@ -505,14 +505,13 @@
             p Llevar a cabo las actividades de mejora planeadas en la etapa anterior.  
 
           .tarjeta.sombratarjeta.fondotarjeta.p-3(x="21%" y="67%" numero="+")
-            h4 3. Verificar
-            p Evaluar los impactos de las actividades de mejora implementadas. 
-
-          .tarjeta.sombratarjeta.fondotarjeta.p-3(x="75%" y="72%" numero="+")
             h4 4. Actuar
             p Tomar medidas que permitan mejorar continuamente los procesos. 
 
-        
+          .tarjeta.sombratarjeta.fondotarjeta.p-3(x="75%" y="72%" numero="+")
+            h4 3. Verificar
+            p Evaluar los impactos de las actividades de mejora implementadas. 
+
     .row.justify-content-center.my-5(data-aos="fade-down")
       .col-xxl-7.col-xl-7.col-lg-7.col-md-12.col-sm-12.col-12
         p Para que la mejora continua se convierta en una realidad dentro de la unidad productiva, es necesario y fundamental:

@@ -59,7 +59,7 @@
               | Marco legal para la obtención de la norma Global G.A.P.
             li 
               i.fas.fa-angle-right
-              | Puntos de Control y Criterios de Cumplimiento PCCC
+              | Puntos de Control y Criterios de Cumplimiento PCCC.
             li 
               i.fas.fa-angle-right
               | Listas de verificación Global G.A.P. y requisitos para sistemas de gestión de calidad. 
@@ -85,16 +85,16 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema3/t2a.jpg")
-          .crd_hover_txt--body.nuevocolor
-            h4.mb-3 Según tipo de certificación
+          .crd_hover_txt--body.nuevocolor.pt-3
+            h4.mb-4 Según tipo de certificación
             p.mb-0 La normativa aplicable depende de cada tipo de certificación, ya que estas tienen diferentes objetivos y estándares.
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
         .crd_hover_txt
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema3/t1a.jpg")
-          .crd_hover_txt--body.nuevocolor
-            h4.mb-3 Reglamentos de cada certificación
+          .crd_hover_txt--body.nuevocolor.pt-3
+            h4.mb-4 Reglamentos de cada certificación
             p.mb-0 Con base en los reglamentos de cada certificación se elaboran las listas de chequeo a través de las cuales se evalúa el cumplimiento o incumplimiento por parte de la empresa agropecuaria de los parámetros definidos.
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-4.mb-xxl-4(data-aos="flip-left")
@@ -102,8 +102,8 @@
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/tema3/t3a.jpg")
-          .crd_hover_txt--body.nuevocolor
-            h4.mb-3 Acciones previas del solicitante
+          .crd_hover_txt--body.nuevocolor.pt-3
+            h4.mb-4 Acciones previas del solicitante
             p.mb-0.me-5 Es importante que el productor agropecuario solicitante conozca de antemano los procesos y subprocesos que se requieren para acceder a la certificación, la normativa, los reglamentos, los protocolos y los procedimientos.
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade")

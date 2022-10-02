@@ -64,12 +64,12 @@
         tr
           td.anchocol2.bordetabla.text-center Número de aplicación de agroquímicos por cosecha.
           td.anchocol2.bordetabla.text-center Número de aplicaciones de agroquímicos/cosecha.
-          td.anchocol2.text-center Registro de labores de cultivo
+          td.anchocol2.text-center Registro de labores de cultivo.
         tr
           <th rowspan="2">Valoración de los beneficios en la calidad de vida de los trabajadores.</th>
           td.anchocol2.bordetabla.text-center Programas de bienestar para el trabajador implementados.
           td.anchocol2.bordetabla.text-center Número de programas de bienestar para el trabajador/año.
-          td.anchocol2.text-center Protocolo de programa de bienestar para el trabajador
+          td.anchocol2.text-center Protocolo de programa de bienestar para el trabajador.
         tr.fondo10
           td.anchocol2.bordetabla.text-center Número de capacitaciones en seguridad y salud en el trabajo realizadas en el año.
           td.anchocol2.bordetabla.text-center Número de capacitaciones en seguridad y salud en el trabajo realizadas/año.
@@ -147,7 +147,8 @@
             img(src='@/assets/curso/tema5/slider3.svg')
             .tarjeta.fondoavatar.sombracrd
               .text-dark.p-4
-                h5.text-center.px-5.mx-sm-5.mx-md-3 Tabla de contenido
+                h5.text-center Tabla de contenido
+                p.text-center Conservando correspondencia entre lo estipulado en ella y los contenidos finales del informe.
 
           .tarjeta-avatar
             img(src='@/assets/curso/tema5/slider4.svg')
@@ -273,7 +274,7 @@
                           | Prohibir el uso de determinados equipos o herramientas. 
                         li 
                           i.fas.fa-angle-right
-                          | Instalar un sistema de tratamiento de aguas residuales
+                          | Instalar un sistema de tratamiento de aguas residuales.
 
               .col-md-6.col-lg.mb-5.mb-lg-0
                 .tarjeta-avatar

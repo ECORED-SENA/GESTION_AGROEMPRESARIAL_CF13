@@ -136,9 +136,9 @@
       .col-xxl-6.col-xl-6.col-lg-6.col-md-12.colsm-12.col-12.mb-4
         img(src="@/assets/curso/tema3/imagen3.jpg")
     .row.justify-content-center(data-aos="fade-up-left")
-      .col-xxl-6.col-xl-6.col-lg-6.col-md-12.colsm-12.col-12.mb-4.mb-md-0
+      .col-xxl-6.col-xl-6.col-lg-6.col-md-12.colsm-12.col-12.mb-4.mb-lg-0
         img(src="@/assets/curso/tema3/imagen4.jpg")
-      .col-xxl-6.col-xl-6.col-lg-6.col-md-12.colsm-12.col-12.mb-4
+      .col-xxl-6.col-xl-6.col-lg-6.col-md-12.colsm-12.col-12.mb-4.order-first.order-lg-last
         LineaTiempoD.color-secundario.fondolineatiempo.margenlineatiempo
           p.ms-2(numero="8" titulo="Documentación aspectos de higiene") Registros para la evaluación de riesgos, procedimientos documentados para su implementación, registro de las capacitaciones al personal en este aspecto.
           

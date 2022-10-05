@@ -212,7 +212,7 @@
     .row.justify-content-center(data-aos="fade-left")
       .col-xxl-6.col-xl-6.col-lg-6.col-md-12.colsm-12.col-12.my-4.mb-md-0
         img(src="@/assets/curso/tema5/imagen7.jpg")
-      .col-xxl-6.col-xl-6.col-lg-6.col-md-12.colsm-12.col-12.my-4
+      .col-xxl-6.col-xl-6.col-lg-6.col-md-12.colsm-12.col-12.my-4.order-first.order-lg-last
         LineaTiempoD.color-secundario.fondolineatiempo
           p(numero="5" titulo="Cuerpo del informe") Se presentan en detalle y de forma secuencial los resultados de las observaciones realizadas, así como el proceso mediante el cual se capturó la información. Se recomienda incluir fotografías, tablas, cuadros y demás recursos que puedan orientar al lector sobre los pormenores de las actividades en las que se basa el informe.
           

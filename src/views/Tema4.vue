@@ -139,7 +139,7 @@
     .row.justify-content-center(data-aos="fade-down-right")
       .col-xxl-4.col-xl-4.col-lg-4.col-md-12.mb-4
         img(src='@/assets/curso/tema4/imagen3.jpg')   
-      .col-xxl-8.col-xl-8.col-lg-8.col-md-12.mb-4
+      .col-xxl-8.col-xl-8.col-lg-8.col-md-12.mb-4.order-first.order-lg-last
         p.mb-4 Los motivos de suspensión de certificación, generalmente, son los que se detallan a continuación:
         ul.lista-ul.ms-3
           li 

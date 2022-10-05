@@ -275,7 +275,7 @@ export default {
       referencia:
         'Miranda F., Chamorro A., y Rubio S. (s. f.). Clarificando el concepto de certificación: el caso español.',
       link:
-        'http://merkado.unex.es/operaciones/descargas/Certificacio%CC%81n%20en%20Espan%CC%83a.pdf',
+        'https://www.academia.edu/21169472/Clarificando_el_concepto_de_certificiaci%C3%B3n_El_caso_espa%C3%B1ol',
     },
     {
       referencia:
@@ -345,21 +345,6 @@ export default {
       link:
         'https://www.ica.gov.co/getattachment/9d8fe0fa-66d2-4feb-9513-cbba30dc4844/2017R30021.aspx',
     },
-    {
-      tema: 'Seguimiento a procesos de certificación',
-      referencia:
-        'Global G.A.P. (2022). GLOBAL G.A.P. una marca registrada y un conjunto de normas para las buenas prácticas agrícolas.',
-      tipo: 'Documento',
-      link:
-        'https://www.globalgap.org/.content/.galleries/documents/181112_NURTURE_Inspection-Checklist_FV_V11_2_protected_es.xlsx',
-    },
-    {
-      tema: 'Seguimiento a procesos de certificación',
-      referencia: 'Global G.A.P. (2022). Tesco Nurture Module.',
-      tipo: 'Documento',
-      link:
-        'https://www.globalgap.org/.content/.galleries/documents/181112_NURTURE_Inspection-Checklist_FV_V11_2_protected_es.xlsx',
-    },
   ],
   creditos: {
     liderEquipo: [
@@ -405,30 +390,30 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      /*{
+      {
         nombre: 'Zuleidy María Ruíz Torres',
         cargo: 'Revisión de guión audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },*/
+      },
       {
         nombre: 'María Carolina Tamayo López',
         cargo: 'Locución',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      /*{
+      {
         nombre: 'Miguel Guerrero Gutiérrez',
         cargo: 'Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },*/
+      },
       {
         nombre: 'Jorge Enrique Haylock Calderín',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
-      /*{
+      {
         nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Validación Ilustración',
         centro:
@@ -457,7 +442,7 @@ export default {
         cargo: 'Validación audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },*/
+      },
     ],
     gestoresRepositorio: [
       {
